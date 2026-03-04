@@ -134,10 +134,21 @@
 }
 
 /* Responsive */
+@media (min-width: 1440px) {
+  .overview-hero      { padding: 120px 0 90px; }
+  .overview-content,
+  .philosophy-section { padding: 100px 0; }
+  .overview-grid      { gap: 80px; }
+}
+
 @media (max-width: 1024px) {
   .philosophy-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .overview-hero      { padding: 80px 0 56px; }
+  .overview-content,
+  .philosophy-section { padding: 64px 0; }
 }
 
 @media (max-width: 768px) {
@@ -166,4 +177,14 @@
   .philosophy-section {
     padding: 60px 0;
   }
+}
+
+@media (max-width: 480px) {
+  .overview-hero      { padding: 48px 0; }
+  .overview-hero h1   { font-size: clamp(2rem, 9vw, 3rem); }
+  .overview-hero .subtitle { font-size: 1rem; }
+  .overview-content,
+  .philosophy-section { padding: 48px 0; }
+  .philosophy-card    { padding: 30px 20px; }
+  .credentials        { padding: 22px; }
 }

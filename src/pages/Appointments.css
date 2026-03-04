@@ -194,6 +194,12 @@
 }
 
 /* Responsive */
+@media (min-width: 1440px) {
+  .appointments-hero    { padding: 120px 0 100px; }
+  .appointments-content { padding: 100px 0; }
+  .appointments-cta     { padding: 100px 0; }
+}
+
 @media (max-width: 968px) {
   .appointments-grid {
     grid-template-columns: 1fr;
@@ -226,4 +232,18 @@
   .appointments-cta {
     padding: 60px 0;
   }
+}
+
+@media (max-width: 480px) {
+  .appointments-hero    { padding: 48px 0 40px; }
+  .appointments-hero h1 { font-size: clamp(2rem, 9vw, 3rem); }
+  .appointments-hero .subtitle { font-size: 1rem; }
+  .appointments-content { padding: 48px 0; }
+  .info-card,
+  .booking-card,
+  .policies-card        { padding: 18px; }
+  .booking-card         { padding: 24px 18px; }
+  .btn-large            { padding: 14px 32px; font-size: 0.95rem; }
+  .appointments-cta     { padding: 48px 0; }
+  .appointments-cta p   { font-size: 0.95rem; }
 }

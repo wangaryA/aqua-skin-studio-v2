@@ -54,6 +54,14 @@
   color: var(--charcoal);
 }
 
+@media (min-width: 1440px) {
+  .treatments-simple { padding: 100px 0; }
+}
+
+@media (max-width: 1024px) {
+  .treatments-simple { padding: 64px 0; }
+}
+
 @media (max-width: 768px) {
   .treatments-simple {
     padding: 60px 0;
@@ -70,4 +78,11 @@
   .treatment-row h3 {
     font-size: 1.15rem;
   }
+}
+
+@media (max-width: 480px) {
+  .treatments-simple  { padding: 48px 0; }
+  .treatment-row      { padding: 18px 0; }
+  .treatment-row h3   { font-size: 1.05rem; }
+  .treatment-row p    { font-size: 0.9rem; }
 }

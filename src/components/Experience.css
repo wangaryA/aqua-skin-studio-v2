@@ -68,6 +68,16 @@
   top: 14px;
 }
 
+@media (min-width: 1440px) {
+  .experience-simple { padding: 100px 0; }
+  .experience-layout { gap: 80px; }
+}
+
+@media (max-width: 1024px) {
+  .experience-simple { padding: 64px 0; }
+  .experience-layout { gap: 48px; }
+}
+
 @media (max-width: 768px) {
   .experience-simple {
     padding: 60px 0;
@@ -85,4 +95,10 @@
   .experience-text p {
     font-size: 1rem;
   }
+}
+
+@media (max-width: 480px) {
+  .experience-simple  { padding: 48px 0; }
+  .experience-text p  { font-size: 0.9rem; }
+  .experience-pillars li { font-size: 0.9rem; padding: 8px 0 8px 18px; }
 }

@@ -216,6 +216,15 @@
 }
 
 /* Responsive */
+@media (min-width: 1440px) {
+  .gift-hero       { padding: 120px 0 90px; }
+  .gift-content    { padding: 120px 0 90px; }
+  .gift-main       { gap: 80px; }
+  .gift-ideas,
+  .gift-corporate,
+  .gift-faq        { padding: 120px 0 90px; }
+}
+
 @media (max-width: 1024px) {
   .ideas-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -261,4 +270,17 @@
   .gift-faq {
     padding: 60px 0;
   }
+}
+
+@media (max-width: 480px) {
+  .gift-hero       { padding: 48px 0; }
+  .gift-hero h1    { font-size: clamp(2rem, 9vw, 3rem); }
+  .gift-hero .subtitle { font-size: 1rem; }
+  .gift-content    { padding: 48px 0; }
+  .idea-amount     { font-size: 2rem; }
+  .gift-ideas,
+  .gift-corporate,
+  .gift-faq        { padding: 48px 0; }
+  .btn-large       { padding: 14px 32px; font-size: 0.95rem; }
+  .faq-item        { padding: 22px; }
 }

@@ -60,12 +60,22 @@
   letter-spacing: 0.02em;
 }
 
-@media (max-width: 768px) {
-  .hero-full {
-    padding: 100px 24px 60px;
-  }
+/* 1440p+ */
+@media (min-width: 1440px) {
+  .hero-full    { padding: 140px 24px 56px; }
+  .hero-tagline { font-size: 1.6rem; }
+}
 
-  .hero-brand {
-    font-size: clamp(2.5rem, 11vw, 4rem);
-  }
+/* Tablets (768px) */
+@media (max-width: 768px) {
+  .hero-full  { padding: 100px 24px 50px; min-height: 560px; }
+  .hero-brand { font-size: clamp(2.4rem, 10vw, 3.8rem); }
+}
+
+/* Small phones (480px) */
+@media (max-width: 480px) {
+  .hero-full       { padding: 88px 18px 40px; min-height: 520px; }
+  .hero-brand      { font-size: clamp(2rem, 10vw, 3rem); }
+  .hero-location   { margin-bottom: 12px; }
+  .hero-tagline    { font-size: 1rem; margin-bottom: 22px; }
 }

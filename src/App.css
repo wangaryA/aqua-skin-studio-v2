@@ -216,18 +216,43 @@ p {
 
 .fade-in { animation: fadeIn 0.7s ease-out; }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .container {
-    padding: 0 24px;
-  }
+/* ─── Responsive ─────────────────────────────────── */
 
-  .section {
-    padding: 70px 0;
-  }
+/* 1440p+ — give content more room */
+@media (min-width: 1440px) {
+  :root { --max-width: 1360px; }
+
+  .container { padding: 0 60px; }
+  .section   { padding: 120px 0; }
+
+  h1 { font-size: clamp(3.5rem, 5vw, 6rem); }
+  h2 { font-size: clamp(2.5rem, 3.5vw, 4rem); }
+}
+
+/* Tablets landscape (1024px) */
+@media (max-width: 1024px) {
+  .container { padding: 0 36px; }
+  .section   { padding: 80px 0; }
+}
+
+/* Tablets portrait / large phones (768px) */
+@media (max-width: 768px) {
+  .container { padding: 0 24px; }
+  .section   { padding: 64px 0; }
 
   .btn {
     padding: 12px 28px;
     font-size: 0.65rem;
   }
+
+  .btn-minimal {
+    padding: 11px 28px;
+    font-size: 0.63rem;
+  }
+}
+
+/* Small phones (480px) */
+@media (max-width: 480px) {
+  .container { padding: 0 18px; }
+  .section   { padding: 52px 0; }
 }
