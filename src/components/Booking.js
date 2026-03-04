@@ -178,9 +178,9 @@ function Booking() {
 
             <div className="studio-info">
               <h4>Studio Information</h4>
-              <p><strong>Address:</strong> 123 Wellness Avenue, Suite 200, Your City, ST 12345</p>
-              <p><strong>Phone:</strong> (555) 123-4567</p>
-              <p><strong>Hours:</strong> Mon-Sat 9:00 AM - 7:00 PM | Sun 10:00 AM - 5:00 PM</p>
+              <p><strong>Address:</strong> 728 3rd St, Suite C, Mukilteo, WA 98275</p>
+              <p><strong>Phone:</strong> (425) 877-4987</p>
+              <p><strong>Email:</strong> rachelmichaels4@yahoo.com</p>
             </div>
           </div>
 

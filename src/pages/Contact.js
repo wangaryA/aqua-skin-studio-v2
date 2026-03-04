@@ -48,8 +48,16 @@ function Contact() {
                 <div className="contact-item">
                   <div className="contact-icon">📍</div>
                   <div className="contact-text">
-                    <h3>Visit Us</h3>
-                    <p>123 Wellness Boulevard, Suite 100<br />San Francisco, CA 94102</p>
+                    <h3>Location</h3>
+                    <p>728 3rd St, Suite C<br />Mukilteo, WA 98275</p>
+                  </div>
+                </div>
+
+                <div className="contact-item">
+                  <div className="contact-icon">👤</div>
+                  <div className="contact-text">
+                    <h3>Contact</h3>
+                    <p>Rachel Phillips</p>
                   </div>
                 </div>
 
@@ -57,7 +65,7 @@ function Contact() {
                   <div className="contact-icon">📞</div>
                   <div className="contact-text">
                     <h3>Call Us</h3>
-                    <p>(415) 555-0123</p>
+                    <p>(425) 877-4987</p>
                   </div>
                 </div>
 
@@ -65,7 +73,7 @@ function Contact() {
                   <div className="contact-icon">✉️</div>
                   <div className="contact-text">
                     <h3>Email Us</h3>
-                    <p>hello@aquaskinbody.com</p>
+                    <p>rachelmichaels4@yahoo.com</p>
                   </div>
                 </div>
 
@@ -84,7 +92,7 @@ function Contact() {
                   <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-icon">
                     Instagram
                   </a>
-                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-icon">
+                  <a href="https://www.facebook.com/profile.php?id=61550784741105" target="_blank" rel="noopener noreferrer" className="social-icon">
                     Facebook
                   </a>
                 </div>
@@ -183,7 +191,7 @@ function Contact() {
           <div className="map-container">
             <iframe
               title="Aqua Skin & Body Studio Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0977627026654!2d-122.41941968468187!3d37.77492977975938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c6c8f4459%3A0xb10ed6d9b5050fa5!2sSan%20Francisco%2C%20CA%2094102!5e0!3m2!1sen!2sus!4v1634567890123!5m2!1sen!2sus"
+              src="https://maps.google.com/maps?q=728+3rd+St+Suite+C,+Mukilteo,+WA+98275&t=&z=15&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="400"
               style={{ border: 0 }}

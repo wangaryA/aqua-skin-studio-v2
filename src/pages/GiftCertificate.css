@@ -1,7 +1,8 @@
 /* Gift Hero */
 .gift-hero {
-  background: linear-gradient(135deg, var(--gold) 0%, #E8C547 50%, var(--cream) 100%);
-  padding: 80px 0;
+  background: var(--cream);
+  padding: 100px 0 70px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
   text-align: center;
 }
 
@@ -18,7 +19,8 @@
 
 /* Gift Content */
 .gift-content {
-  padding: 80px 0;
+  padding: 100px 0 70px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
   background: var(--white);
 }
 
@@ -72,7 +74,8 @@
 
 /* Gift Ideas */
 .gift-ideas {
-  padding: 80px 0;
+  padding: 100px 0 70px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
   background: var(--cream);
 }
 
@@ -143,7 +146,8 @@
 
 /* Corporate Section */
 .gift-corporate {
-  padding: 80px 0;
+  padding: 100px 0 70px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
   background: var(--primary-aqua);
 }
 
@@ -176,7 +180,8 @@
 
 /* Gift FAQ */
 .gift-faq {
-  padding: 80px 0;
+  padding: 100px 0 70px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
   background: var(--white);
 }
 

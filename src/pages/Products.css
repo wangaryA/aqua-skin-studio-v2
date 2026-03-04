@@ -1,18 +1,21 @@
 /* Products Hero */
 .products-hero {
-  background: linear-gradient(135deg, var(--primary-aqua) 0%, var(--secondary-aqua) 100%);
-  padding: 80px 0;
+  background: var(--cream);
+  padding: 100px 0 70px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
   text-align: center;
 }
 
 .products-hero h1 {
-  color: var(--white);
+  color: var(--charcoal);
   margin-bottom: 16px;
 }
 
 .products-hero .subtitle {
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 1.25rem;
+  font-family: var(--font-heading);
+  font-style: italic;
+  color: var(--warm-gray);
+  font-size: 1.2rem;
 }
 
 /* Products Intro */
@@ -44,9 +47,9 @@
 
 .product-card {
   background: var(--white);
-  border-radius: 16px;
+  border-radius: 0;
   overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.07);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -76,7 +79,7 @@
 }
 
 .product-content h3 {
-  color: var(--primary-aqua);
+  color: var(--charcoal);
   margin-bottom: 15px;
   font-size: 1.5rem;
 }
@@ -95,12 +98,14 @@
 }
 
 .product-features li {
-  background: var(--secondary-aqua);
-  color: var(--charcoal);
-  padding: 6px 14px;
-  border-radius: 20px;
-  font-size: 0.85rem;
-  font-weight: 500;
+  background: transparent;
+  color: var(--warm-gray);
+  padding: 5px 12px;
+  border: 1px solid var(--sand);
+  font-size: 0.72rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 /* Products CTA */

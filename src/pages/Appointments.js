@@ -22,21 +22,28 @@ function Appointments() {
                   <span className="info-icon">📍</span>
                   <div>
                     <strong>Address</strong>
-                    <p>123 Wellness Boulevard, Suite 100<br />San Francisco, CA 94102</p>
+                    <p>728 3rd St, Suite C<br />Mukilteo, WA 98275</p>
+                  </div>
+                </div>
+                <div className="info-item">
+                  <span className="info-icon">👤</span>
+                  <div>
+                    <strong>Contact</strong>
+                    <p>Rachel Phillips</p>
                   </div>
                 </div>
                 <div className="info-item">
                   <span className="info-icon">📞</span>
                   <div>
                     <strong>Phone</strong>
-                    <p>(415) 555-0123</p>
+                    <p>(425) 877-4987</p>
                   </div>
                 </div>
                 <div className="info-item">
                   <span className="info-icon">✉️</span>
                   <div>
                     <strong>Email</strong>
-                    <p>hello@aquaskinbody.com</p>
+                    <p>rachelmichaels4@yahoo.com</p>
                   </div>
                 </div>
               </div>
@@ -92,7 +99,7 @@ function Appointments() {
                   Book Online Now
                 </a>
                 <p className="booking-note">
-                  Prefer to speak with us? Call (415) 555-0123 to schedule your appointment.
+                  Prefer to speak with us? Call (425) 877-4987 to schedule your appointment.
                 </p>
               </div>
 

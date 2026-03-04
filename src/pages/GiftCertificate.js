@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './GiftCertificate.css';
+import giftCardImage from '../assets/GiftCard.png';
 
 function GiftCertificate() {
   return (
@@ -17,8 +18,8 @@ function GiftCertificate() {
           <div className="gift-main">
             <div className="gift-image">
               <img
-                src="https://images.unsplash.com/photo-1549465220-1a8b9238e49b?w=600&h=500&fit=crop"
-                alt="Gift certificate"
+                src={giftCardImage}
+                alt="Aqua Skin & Body Studio Gift Card"
               />
             </div>
             <div className="gift-text">
@@ -116,7 +117,7 @@ function GiftCertificate() {
               <h3>How do I purchase a gift certificate?</h3>
               <p>
                 Click the "Purchase Gift Certificate" button above to buy online. You can also
-                call us at (415) 555-0123 or visit the studio in person.
+                call us at (425) 877-4987 or visit the studio in person.
               </p>
             </div>
             <div className="faq-item">

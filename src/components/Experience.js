@@ -1,74 +1,35 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Experience.css';
 
 function Experience() {
-  const differentiators = [
-    {
-      icon: '✦',
-      title: 'Personalized Approach',
-      description: 'Every treatment is customized to your unique skin type, concerns, and wellness goals.'
-    },
-    {
-      icon: '✦',
-      title: 'Boutique Atmosphere',
-      description: 'Intimate, serene setting designed for relaxation and rejuvenation away from the everyday.'
-    },
-    {
-      icon: '✦',
-      title: 'Expert Aestheticians',
-      description: 'Licensed professionals with advanced training in cutting-edge skincare and wellness techniques.'
-    },
-    {
-      icon: '✦',
-      title: 'Premium Products',
-      description: 'Medical-grade, cruelty-free products from trusted brands that deliver visible results.'
-    }
-  ];
-
   return (
-    <section className="experience section section-alt" id="experience">
+    <section className="experience-simple" id="experience">
       <div className="container">
-        <div className="experience-content">
-          <div className="experience-images">
-            <div className="image-main">
-              <img
-                src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=600&h=700&fit=crop"
-                alt="Serene spa interior"
-              />
-            </div>
-            <div className="image-accent">
-              <img
-                src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=400&h=400&fit=crop"
-                alt="Spa treatment room"
-              />
-            </div>
+        <div className="experience-layout">
+          <div className="experience-image">
+            <img
+              src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=600&h=500&fit=crop"
+              alt="Serene spa interior"
+            />
           </div>
 
           <div className="experience-text">
-            <h2>Why Choose Aqua Skin & Body Studio</h2>
-            <p className="experience-intro">
-              More than just a spa, we're a sanctuary where luxury meets personalized care.
-              Every visit is an escape into tranquility and transformation.
+            <h2>Why Choose Aqua</h2>
+            <p>
+              Aqua Skin & Body Studio is a serene, boutique retreat where advanced skincare
+              meets restorative body therapy. We offer something rare in today's fast-paced
+              beauty world — unhurried, high-touch care rooted in science, expertise, and
+              genuine connection.
             </p>
-
-            <div className="differentiators">
-              {differentiators.map((item, index) => (
-                <div key={index} className="differentiator">
-                  <div className="diff-icon">{item.icon}</div>
-                  <div className="diff-content">
-                    <h4>{item.title}</h4>
-                    <p>{item.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            <button
-              className="btn btn-primary"
-              onClick={() => document.getElementById('booking').scrollIntoView({ behavior: 'smooth' })}
-            >
-              Experience the Difference
-            </button>
+            <ul className="experience-pillars">
+              <li><strong>30+ Years of Expertise</strong> — Three decades of advanced aesthetic mastery shape every service.</li>
+              <li><strong>Intimate & Calm</strong> — No crowded waiting rooms. No rushed appointments. Just a quiet, private sanctuary.</li>
+              <li><strong>Results-Driven Rituals</strong> — Clinical-grade skincare blended with sensory indulgence.</li>
+              <li><strong>Whole-Body Wellness</strong> — Facials and massage therapy together for skin, body, and nervous system harmony.</li>
+              <li><strong>Elevated Client Care</strong> — Every guest is welcomed like a VIP, with personalized recommendations and a high-touch experience.</li>
+            </ul>
+            <Link to="/overview" className="text-link">Learn our story →</Link>
           </div>
         </div>
       </div>

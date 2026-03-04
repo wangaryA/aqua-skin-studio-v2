@@ -7,7 +7,7 @@ function Overview() {
       <section className="overview-hero">
         <div className="container">
           <h1>About Aqua Skin & Body Studio</h1>
-          <p className="subtitle">Your Journey to Radiant Skin Begins Here</p>
+          <p className="subtitle">Where Science Meets Serenity</p>
         </div>
       </section>
 
@@ -23,33 +23,37 @@ function Overview() {
             <div className="overview-text">
               <h2>Welcome to Aqua</h2>
               <p>
-                At Aqua Skin & Body Studio, we believe that everyone deserves to feel
-                confident and beautiful in their own skin. Our boutique spa experience
-                combines advanced skincare techniques with a serene, welcoming atmosphere
-                to help you achieve your skin goals.
+                Aqua Skin & Body Studio is a boutique sanctuary dedicated to luxurious facials,
+                restorative body therapy, and personalized skin wellness. Designed for those who
+                value both results and relaxation, the studio blends advanced aesthetic expertise
+                with a serene, intimate environment where every detail is curated for comfort,
+                calm, and transformation.
               </p>
               <p>
-                With years of experience in the aesthetics industry, our team is dedicated
-                to providing personalized treatments tailored to your unique skin needs.
-                We stay current with the latest innovations in skincare technology while
-                maintaining a commitment to safe, effective treatments.
+                With more than 30 years of experience in medical aesthetics, dermatology
+                pharmaceuticals, and luxury skincare, I created Aqua Skin & Body Studio to offer
+                something rare in today's fast-paced beauty world — unhurried, high-touch care
+                rooted in science, expertise, and genuine connection. Each treatment is
+                thoughtfully customized, combining clinical-grade skincare with sensory
+                indulgence to support the skin, body, and nervous system as a whole.
               </p>
               <p>
-                Our philosophy is simple: healthy skin is beautiful skin. We take a
-                holistic approach to skincare, considering factors like lifestyle, diet,
-                and environmental exposure to create comprehensive treatment plans that
-                deliver lasting results.
+                At Aqua, luxury aesthetics means more than beautiful surroundings. It's the art
+                of delivering elevated, results-driven treatments with intention and warmth. From
+                the moment you arrive, you're welcomed into a calming space designed to help you
+                unwind, reset, and feel truly cared for. My goal is simple: to help you look and
+                feel your best — glowing, confident, and restored from the inside out.
               </p>
 
               <div className="credentials">
-                <h3>Our Expertise</h3>
+                <h3>Specialties</h3>
                 <ul>
-                  <li>Licensed Aesthetician</li>
-                  <li>Advanced Facial Treatments</li>
-                  <li>Chemical Peel Specialist</li>
-                  <li>Microneedling Certified</li>
-                  <li>LED Light Therapy</li>
-                  <li>Medical-Grade Skincare Products</li>
+                  <li>Luxury Facials & Advanced Skin Treatments</li>
+                  <li>Customized Massage Therapy</li>
+                  <li>Anti-Aging & Corrective Skincare</li>
+                  <li>Hydration, Barrier Repair & Glow-Boosting Protocols</li>
+                  <li>Medical Aesthetics & Dermatology Pharmaceuticals</li>
+                  <li>Personalized Homecare Guidance</li>
                 </ul>
               </div>
             </div>
@@ -59,27 +63,32 @@ function Overview() {
 
       <section className="philosophy-section">
         <div className="container">
-          <h2>Our Approach</h2>
+          <h2>What Luxury Aesthetics Means at Aqua</h2>
           <div className="philosophy-grid">
             <div className="philosophy-card">
               <div className="philosophy-icon">✨</div>
-              <h3>Personalized Care</h3>
-              <p>Every treatment is customized to your specific skin type, concerns, and goals.</p>
+              <h3>Luxury, Intimacy & Calm</h3>
+              <p>A curated, boutique environment designed to feel private, peaceful, and indulgent — never rushed, never crowded.</p>
+            </div>
+            <div className="philosophy-card">
+              <div className="philosophy-icon">🔬</div>
+              <h3>Expertise You Can Feel</h3>
+              <p>Three decades of aesthetic mastery, clinical training, and a deep understanding of skin health shape every service.</p>
+            </div>
+            <div className="philosophy-card">
+              <div className="philosophy-icon">💧</div>
+              <h3>Results-Driven Rituals</h3>
+              <p>Treatments blend science and sensorial luxury — clinical-grade skincare, expert touch, and customized protocols.</p>
             </div>
             <div className="philosophy-card">
               <div className="philosophy-icon">🌿</div>
-              <h3>Quality Products</h3>
-              <p>We use only professional-grade, results-driven skincare products from trusted brands.</p>
+              <h3>Whole-Body Wellness</h3>
+              <p>Facials and massage therapy offered together to support skin, body, and nervous system harmony.</p>
             </div>
             <div className="philosophy-card">
-              <div className="philosophy-icon">💆</div>
-              <h3>Relaxing Environment</h3>
-              <p>Our tranquil spa setting allows you to unwind while receiving expert skincare treatments.</p>
-            </div>
-            <div className="philosophy-card">
-              <div className="philosophy-icon">📚</div>
-              <h3>Education First</h3>
-              <p>We empower you with knowledge about your skin and how to maintain results at home.</p>
+              <div className="philosophy-icon">💎</div>
+              <h3>Elevated Client Care</h3>
+              <p>Every guest is welcomed like a VIP — thoughtful consultation, personalized recommendations, and a high-touch experience from start to finish.</p>
             </div>
           </div>
         </div>

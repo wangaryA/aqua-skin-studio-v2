@@ -1,18 +1,20 @@
 :root {
-  --primary-aqua: #4DB8C4;
-  --secondary-aqua: #A8E6E3;
-  --gold: #D4AF37;
-  --cream: #F5F3EF;
-  --warm-gray: #8B8680;
-  --charcoal: #2C2C2C;
+  --cream: #F7F4EF;
+  --charcoal: #1A1A1A;
+  --muted-aqua: #5B9EA6;
+  --sand: #C8BBA8;
+  --warm-gray: #7A7269;
   --white: #FFFFFF;
 
-  --font-heading: 'Playfair Display', serif;
-  --font-body: 'Poppins', sans-serif;
+  --font-heading: 'Cormorant Garamond', serif;
+  --font-body: 'Jost', sans-serif;
 
   --max-width: 1200px;
-  --section-padding: 80px;
-  --section-padding-mobile: 60px;
+
+  /* Aliases so interior pages render correctly */
+  --primary-aqua: var(--muted-aqua);
+  --secondary-aqua: #9DCDD2;
+  --gold: var(--sand);
 }
 
 * {
@@ -28,7 +30,8 @@ html {
 body {
   font-family: var(--font-body);
   color: var(--charcoal);
-  line-height: 1.6;
+  line-height: 1.7;
+  background: var(--cream);
   overflow-x: hidden;
 }
 
@@ -41,144 +44,190 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.15;
 }
 
-h1 {
-  font-size: clamp(2.5rem, 5vw, 4rem);
-  margin-bottom: 1rem;
-}
-
-h2 {
-  font-size: clamp(2rem, 4vw, 3rem);
-  margin-bottom: 1rem;
-}
-
-h3 {
-  font-size: clamp(1.5rem, 3vw, 2rem);
-  margin-bottom: 0.75rem;
-}
+h1 { font-size: clamp(2.8rem, 6vw, 5rem); }
+h2 { font-size: clamp(2rem, 4vw, 3.2rem); }
+h3 { font-size: clamp(1.4rem, 2.5vw, 2rem); }
 
 p {
-  font-size: clamp(1rem, 1.5vw, 1.125rem);
-  line-height: 1.8;
+  font-family: var(--font-body);
+  font-size: clamp(0.88rem, 1.1vw, 0.95rem);
+  line-height: 1.85;
   color: var(--warm-gray);
+  font-weight: 300;
 }
 
-/* Buttons */
-.btn {
-  padding: 16px 40px;
-  border: none;
-  border-radius: 50px;
+/* Minimal Buttons */
+.btn-minimal {
+  display: inline-block;
+  padding: 13px 36px;
+  border: 1px solid currentColor;
   font-family: var(--font-body);
-  font-size: 1rem;
+  font-size: 0.68rem;
   font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.35s ease;
+  background: transparent;
+}
+
+.btn-minimal-light {
+  color: var(--white);
+  border-color: rgba(255, 255, 255, 0.55);
+}
+
+.btn-minimal-light:hover {
+  background: var(--white);
+  color: var(--charcoal);
+  border-color: var(--white);
+}
+
+.btn-minimal-dark {
+  color: var(--charcoal);
+  border-color: var(--charcoal);
+}
+
+.btn-minimal-dark:hover {
+  background: var(--charcoal);
+  color: var(--white);
+}
+
+.btn-minimal-aqua {
+  color: var(--muted-aqua);
+  border-color: var(--muted-aqua);
+}
+
+.btn-minimal-aqua:hover {
+  background: var(--muted-aqua);
+  color: var(--white);
+}
+
+/* Legacy .btn classes for interior pages (Booking, Appointments, etc.) */
+.btn {
+  padding: 13px 36px;
+  border: 1px solid currentColor;
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  text-align: center;
-  min-width: 180px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 0;
+  min-width: auto;
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, var(--primary-aqua), var(--secondary-aqua));
+  background: var(--muted-aqua);
   color: var(--white);
-  box-shadow: 0 4px 15px rgba(77, 184, 196, 0.3);
+  border-color: var(--muted-aqua);
 }
 
 .btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(77, 184, 196, 0.4);
+  background: transparent;
+  color: var(--muted-aqua);
 }
 
 .btn-secondary {
-  background: rgba(255, 255, 255, 0.95);
-  color: #2C4A6E;
-  border: 2px solid #2C4A6E;
+  background: transparent;
+  color: var(--charcoal);
+  border-color: var(--charcoal);
 }
 
 .btn-secondary:hover {
-  background: #2C4A6E;
+  background: var(--charcoal);
   color: var(--white);
-  border-color: #2C4A6E;
 }
 
 .btn-outline {
   background: transparent;
-  color: var(--primary-aqua);
-  border: 2px solid var(--primary-aqua);
+  color: var(--muted-aqua);
+  border-color: var(--muted-aqua);
 }
 
 .btn-outline:hover {
-  background: var(--primary-aqua);
+  background: var(--muted-aqua);
   color: var(--white);
 }
 
-/* Containers */
+/* Text link */
+.text-link {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--charcoal);
+  text-decoration: none;
+  border-bottom: 1px solid var(--charcoal);
+  padding-bottom: 2px;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.text-link:hover {
+  color: var(--muted-aqua);
+  border-color: var(--muted-aqua);
+}
+
+/* Container */
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 48px;
 }
 
 .section {
-  padding: var(--section-padding) 0;
+  padding: 100px 0;
 }
 
 .section-alt {
-  background: var(--cream);
+  background: var(--white);
 }
 
-/* Text Alignment */
-.text-center {
-  text-align: center;
+.text-center { text-align: center; }
+
+/* Divider */
+.divider {
+  width: 36px;
+  height: 1px;
+  background: var(--sand);
+  margin: 32px auto;
 }
 
 /* Animations */
 @keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
-.fade-in-up {
-  animation: fadeInUp 0.8s ease-out;
-}
+.fade-in-up { animation: fadeInUp 0.9s ease-out; }
 
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
-.fade-in {
-  animation: fadeIn 0.6s ease-out;
-}
+.fade-in { animation: fadeIn 0.7s ease-out; }
 
 /* Responsive */
-@media (max-width: 1024px) {
-  :root {
-    --section-padding: 60px;
-  }
-}
-
 @media (max-width: 768px) {
-  :root {
-    --section-padding: var(--section-padding-mobile);
+  .container {
+    padding: 0 24px;
+  }
+
+  .section {
+    padding: 70px 0;
   }
 
   .btn {
-    padding: 14px 32px;
-    min-width: 160px;
-    font-size: 0.9rem;
+    padding: 12px 28px;
+    font-size: 0.65rem;
   }
 }

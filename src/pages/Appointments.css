@@ -1,7 +1,7 @@
 /* Appointments Hero */
 .appointments-hero {
-  background: linear-gradient(135deg, var(--primary-aqua) 0%, var(--secondary-aqua) 100%);
-  padding: 80px 0;
+  background: var(--charcoal);
+  padding: 100px 0 80px;
   text-align: center;
 }
 
@@ -11,8 +11,10 @@
 }
 
 .appointments-hero .subtitle {
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 1.25rem;
+  font-family: var(--font-heading);
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.2rem;
 }
 
 /* Appointments Content */
@@ -37,8 +39,8 @@
 .info-card {
   background: var(--white);
   padding: 30px;
-  border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  border-radius: 0;
+  border: 1px solid rgba(0, 0, 0, 0.07);
 }
 
 .info-card h2 {
@@ -46,7 +48,7 @@
   font-size: 1.35rem;
   margin-bottom: 24px;
   padding-bottom: 12px;
-  border-bottom: 2px solid var(--secondary-aqua);
+  border-bottom: 1px solid var(--sand);
 }
 
 .info-item {
@@ -109,9 +111,9 @@
 .booking-card {
   background: var(--white);
   padding: 40px;
-  border-radius: 16px;
+  border-radius: 0;
   text-align: center;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.07);
 }
 
 .booking-card h2 {
@@ -140,15 +142,15 @@
 .policies-card {
   background: var(--white);
   padding: 40px;
-  border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  border-radius: 0;
+  border: 1px solid rgba(0, 0, 0, 0.07);
 }
 
 .policies-card h2 {
   color: var(--charcoal);
   margin-bottom: 30px;
   padding-bottom: 12px;
-  border-bottom: 2px solid var(--secondary-aqua);
+  border-bottom: 1px solid var(--sand);
 }
 
 .policy-section {
@@ -160,7 +162,7 @@
 }
 
 .policy-section h3 {
-  color: var(--primary-aqua);
+  color: var(--charcoal);
   font-size: 1.1rem;
   margin-bottom: 10px;
 }
