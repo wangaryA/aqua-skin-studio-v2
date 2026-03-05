@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './TreatmentsPage.css';
 
@@ -50,43 +50,27 @@ const treatments = [
     note: 'DiamondGlow® delivers revolutionary skin transformation through patented 3-in-1 technology that simultaneously exfoliates, extracts, and infuses professional-grade serums. This advanced facial treatment uses precision diamond-tip resurfacing to reveal instantly brighter, smoother, and more radiant skin with zero downtime.',
     subnote: 'Face, neck, and chest treated with each session.',
     items: [
-      {
-        name: 'Diamond Glow Express',
-        duration: '30 min',
-        price: '$180',
-        description: ''
-      },
-      {
-        name: 'Diamond Glow LUXE Facial',
-        duration: '50 min',
-        price: '$200',
-        description: ''
-      }
+      { name: 'Diamond Glow Express', duration: '30 min', price: '$180', description: '' },
+      { name: 'Diamond Glow LUXE Facial', duration: '50 min', price: '$200', description: '' }
     ]
   },
   {
     category: 'Advanced Treatments',
     items: [
-      {
-        name: 'Dr. Pen Micro Needling + Custom Skin Booster',
-        price: '$200–$400',
-        description: ''
-      },
-      {
-        name: 'BioRePeel Glass Skin Peel',
-        price: '$175',
-        description: ''
-      },
-      {
-        name: 'SkinMedica Vitalize Peel',
-        price: '$175',
-        description: ''
-      }
+      { name: 'Dr. Pen Micro Needling + Custom Skin Booster', price: '$200–$400', description: '' },
+      { name: 'BioRePeel Glass Skin Peel', price: '$175', description: '' },
+      { name: 'SkinMedica Vitalize Peel', price: '$175', description: '' }
     ]
   }
 ];
 
 function TreatmentsPage() {
+  const [openItems, setOpenItems] = useState({});
+
+  const toggle = (key) => {
+    setOpenItems(prev => ({ ...prev, [key]: !prev[key] }));
+  };
+
   return (
     <div className="page-wrapper">
       <section className="treatments-page-hero">
@@ -111,18 +95,34 @@ function TreatmentsPage() {
               {category.note && <p className="category-note">{category.note}</p>}
               {category.subnote && <p className="category-subnote">{category.subnote}</p>}
               <div className="treatment-list">
-                {category.items.map((treatment, i) => (
-                  <div key={i} className="treatment-item">
-                    <div className="treatment-header">
-                      <h3>{treatment.name}</h3>
-                      <div className="treatment-meta">
-                        {treatment.duration && <span className="duration">{treatment.duration}</span>}
-                        <span className="price">{treatment.price}</span>
+                {category.items.map((treatment, i) => {
+                  const key = `${index}-${i}`;
+                  const isOpen = !!openItems[key];
+                  const hasDesc = !!treatment.description;
+                  return (
+                    <div
+                      key={i}
+                      className={`treatment-item ${isOpen ? 'open' : ''} ${hasDesc ? 'expandable' : ''}`}
+                      onClick={() => hasDesc && toggle(key)}
+                    >
+                      <div className="treatment-header">
+                        <h3>{treatment.name}</h3>
+                        <div className="treatment-meta">
+                          {treatment.duration && <span className="duration">{treatment.duration}</span>}
+                          <span className="price">{treatment.price}</span>
+                          {hasDesc && (
+                            <span className={`treatment-toggle ${isOpen ? 'open' : ''}`}>+</span>
+                          )}
+                        </div>
                       </div>
+                      {hasDesc && (
+                        <div className={`treatment-description ${isOpen ? 'open' : ''}`}>
+                          <p>{treatment.description}</p>
+                        </div>
+                      )}
                     </div>
-                    {treatment.description && <p>{treatment.description}</p>}
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
           ))}
