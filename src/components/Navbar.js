@@ -36,7 +36,7 @@ function Navbar() {
 
         {/* Centered logo */}
         <Link to="/" className="logo">
-          <span>Aqua Skin &amp; Body Studio</span>
+          <img src="/images/Logo.jpg" alt="Aqua Skin & Body Studio" className="logo-img" />
         </Link>
 
         {/* Right nav links */}
