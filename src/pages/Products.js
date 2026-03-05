@@ -11,7 +11,7 @@ const products = [
   {
     name: 'SkinCeuticals',
     description: 'Advanced skincare backed by science. SkinCeuticals offers high-potency formulas to improve skin health and treat skin conditions.',
-    image: 'https://images.unsplash.com/photo-1570194065650-d99fb4b38b3f?w=400&h=300&fit=crop',
+    image: '/images/skinceuticals.jpg',
     features: ['Antioxidant Protection', 'Corrective Treatments', 'Anti-Aging Solutions']
   },
   {
