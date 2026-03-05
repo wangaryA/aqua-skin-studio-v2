@@ -10,10 +10,6 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 
-.navbar.transparent {
-  background: transparent;
-  border-bottom-color: transparent;
-}
 
 .navbar.scrolled {
   padding: 16px 0;
@@ -47,10 +43,6 @@
   text-transform: uppercase;
 }
 
-.navbar.transparent .logo span {
-  color: var(--white);
-}
-
 /* Nav links base */
 .nav-links {
   display: flex;
@@ -82,16 +74,8 @@
   white-space: nowrap;
 }
 
-.navbar.transparent .nav-links li a {
-  color: rgba(255, 255, 255, 0.78);
-}
-
 .nav-links li a:hover {
   color: var(--muted-aqua);
-}
-
-.navbar.transparent .nav-links li a:hover {
-  color: var(--white);
 }
 
 /* Book link */
@@ -99,11 +83,6 @@
   color: var(--muted-aqua) !important;
   border-bottom: 1px solid var(--muted-aqua);
   padding-bottom: 1px;
-}
-
-.navbar.transparent .nav-book a {
-  color: rgba(255, 255, 255, 0.78) !important;
-  border-bottom-color: rgba(255, 255, 255, 0.4);
 }
 
 /* Mobile hamburger — hidden on desktop */
@@ -123,10 +102,6 @@
   background: var(--charcoal);
   margin: 4px 0;
   transition: background 0.4s ease;
-}
-
-.navbar.transparent .mobile-menu-toggle span {
-  background: var(--white);
 }
 
 /* Mobile full-screen overlay menu */

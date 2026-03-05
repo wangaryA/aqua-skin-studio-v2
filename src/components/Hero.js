@@ -4,19 +4,13 @@ import './Hero.css';
 
 function Hero() {
   return (
-    <section className="hero-full" style={{ backgroundImage: `url('/images/hero-image.png')` }}>
-      <div className="hero-overlay"></div>
-
-      {/* Title — top */}
-      <div className="hero-top fade-in-up">
+    <section className="hero-clean">
+      <div className="container hero-container fade-in-up">
         <p className="hero-location">Mukilteo, Washington</p>
         <h1 className="hero-brand">Aqua Skin &amp; Body Studio</h1>
-      </div>
-
-      {/* Tagline + CTA — bottom, leaves center open for the water drop */}
-      <div className="hero-bottom fade-in-up">
-        <p className="hero-tagline"><em>Where science meets serenity.</em></p>
-        <Link to="/appointments" className="btn-minimal btn-minimal-light">
+        <div className="hero-divider"></div>
+        <p className="hero-tagline">Where science meets serenity.</p>
+        <Link to="/appointments" className="btn-minimal btn-minimal-dark">
           Reserve Your Experience
         </Link>
       </div>

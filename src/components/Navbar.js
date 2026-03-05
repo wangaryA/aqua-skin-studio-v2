@@ -6,7 +6,6 @@ function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
-  const isHome = location.pathname === '/';
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,10 +21,8 @@ function Navbar() {
     window.scrollTo(0, 0);
   }, [location]);
 
-  const transparent = isHome && !scrolled;
-
   return (
-    <nav className={`navbar ${scrolled ? 'scrolled' : ''} ${transparent ? 'transparent' : ''}`}>
+    <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container navbar-container">
 
         {/* Left nav links */}
