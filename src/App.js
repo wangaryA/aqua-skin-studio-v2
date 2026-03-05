@@ -11,12 +11,14 @@ import Enhancements from './pages/Enhancements';
 import Appointments from './pages/Appointments';
 import Contact from './pages/Contact';
 import GiftCertificate from './pages/GiftCertificate';
+import CookieConsent from './components/CookieConsent';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Navbar />
+        <CookieConsent />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/overview" element={<Overview />} />
