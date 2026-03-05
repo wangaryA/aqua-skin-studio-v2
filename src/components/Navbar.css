@@ -6,15 +6,15 @@
   z-index: 1000;
   padding: 24px 0;
   transition: background 0.4s ease, padding 0.4s ease, border-color 0.4s ease;
-  background: rgba(247, 244, 239, 0.97);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  background: #7fb3cf61;
+  border-bottom: 1px solid #0000000f;
 }
 
 
 .navbar.scrolled {
   padding: 16px 0;
-  background: rgba(247, 244, 239, 0.97);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  background: #7fb3cf61;
+  border-bottom: 1px solid #0000000f;
 }
 
 /* 3-column grid: left-links | logo | right-links */
