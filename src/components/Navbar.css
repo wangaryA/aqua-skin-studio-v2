@@ -17,6 +17,11 @@
   border-bottom: 1px solid #0000000f;
 }
 
+.navbar.transparent {
+  background: transparent;
+  border-bottom-color: transparent;
+}
+
 /* 3-column grid: left-links | logo | right-links */
 .navbar-container {
   display: grid;
