@@ -38,12 +38,13 @@
 
 .logo span {
   font-family: var(--font-heading);
-  font-size: 1rem;
-  font-weight: 400;
-  letter-spacing: 0.05em;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
   color: var(--charcoal);
   transition: color 0.4s ease;
   white-space: nowrap;
+  text-transform: uppercase;
 }
 
 .navbar.transparent .logo span {
@@ -175,7 +176,7 @@
 /* 1440p+ */
 @media (min-width: 1440px) {
   .nav-links    { gap: 40px; }
-  .logo span    { font-size: 1.2rem; }
+  .logo span    { font-size: 0.92rem; }
   .navbar       { padding: 30px 0; }
   .navbar.scrolled { padding: 20px 0; }
 }
@@ -200,7 +201,7 @@
   }
 
   .logo span {
-    font-size: 0.92rem;
+    font-size: 0.72rem;
   }
 
   .logo {

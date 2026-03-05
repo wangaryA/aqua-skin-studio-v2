@@ -37,11 +37,11 @@
 
 .hero-brand {
   font-family: var(--font-heading);
-  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-size: clamp(2rem, 5.5vw, 4rem);
   font-weight: 300;
   color: var(--white);
-  line-height: 1.05;
-  letter-spacing: 0.01em;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
 }
 
 /* Tagline + CTA — sits at the bottom, below the water drop */
@@ -53,11 +53,12 @@
 
 .hero-tagline {
   font-family: var(--font-heading);
-  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  font-size: clamp(0.85rem, 1.4vw, 1rem);
   font-weight: 300;
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.75);
   margin-bottom: 32px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 /* 1440p+ */

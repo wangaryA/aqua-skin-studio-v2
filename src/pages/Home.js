@@ -41,7 +41,7 @@ function Home() {
           <Link to="/treatments" className="service-tile">
             <div
               className="service-tile-img"
-              style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=900&h=1100&fit=crop)' }}
+              style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=900&h=1100&fit=crop)' }}
             ></div>
             <div className="service-tile-label">
               <h3>Massage Therapy</h3>

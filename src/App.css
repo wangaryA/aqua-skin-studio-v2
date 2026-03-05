@@ -1,12 +1,12 @@
 :root {
-  --cream: #F7F4EF;
+  --cream: #F5F5F5;
   --charcoal: #1A1A1A;
   --muted-aqua: #5B9EA6;
   --sand: #C8BBA8;
-  --warm-gray: #7A7269;
+  --warm-gray: #6B6B6B;
   --white: #FFFFFF;
 
-  --font-heading: 'Cormorant Garamond', serif;
+  --font-heading: 'Montserrat', sans-serif;
   --font-body: 'Jost', sans-serif;
 
   --max-width: 1200px;
@@ -43,13 +43,14 @@ body {
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
-  font-weight: 400;
-  line-height: 1.15;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
 }
 
-h1 { font-size: clamp(2.8rem, 6vw, 5rem); }
-h2 { font-size: clamp(2rem, 4vw, 3.2rem); }
-h3 { font-size: clamp(1.4rem, 2.5vw, 2rem); }
+h1 { font-size: clamp(1.8rem, 3.8vw, 2.8rem); }
+h2 { font-size: clamp(1.4rem, 2.8vw, 2rem); }
+h3 { font-size: clamp(1.05rem, 1.8vw, 1.3rem); font-weight: 500; letter-spacing: 0; }
 
 p {
   font-family: var(--font-body);
@@ -225,8 +226,8 @@ p {
   .container { padding: 0 60px; }
   .section   { padding: 120px 0; }
 
-  h1 { font-size: clamp(3.5rem, 5vw, 6rem); }
-  h2 { font-size: clamp(2.5rem, 3.5vw, 4rem); }
+  h1 { font-size: clamp(2.5rem, 4vw, 3.5rem); }
+  h2 { font-size: clamp(1.8rem, 3vw, 2.5rem); }
 }
 
 /* Tablets landscape (1024px) */

@@ -12,10 +12,11 @@
 
 .home-quote {
   font-family: var(--font-heading);
-  font-size: clamp(1.7rem, 3.2vw, 2.5rem);
+  font-size: clamp(1.1rem, 2.2vw, 1.6rem);
   font-weight: 300;
   color: var(--charcoal);
-  line-height: 1.45;
+  line-height: 1.55;
+  letter-spacing: -0.01em;
 }
 
 /* Services Grid */
@@ -71,10 +72,11 @@
 
 .service-tile-label h3 {
   font-family: var(--font-heading);
-  font-size: clamp(1.5rem, 2.2vw, 2rem);
+  font-size: clamp(1.1rem, 1.8vw, 1.5rem);
   font-weight: 300;
   color: var(--white);
   margin-bottom: 8px;
+  letter-spacing: -0.01em;
 }
 
 .service-tile-label span {
@@ -100,11 +102,12 @@
 
 .home-closing-text {
   font-family: var(--font-heading);
-  font-size: clamp(1.4rem, 2.8vw, 2.2rem);
+  font-size: clamp(1rem, 2vw, 1.4rem);
   font-weight: 300;
   color: var(--charcoal);
-  line-height: 1.55;
+  line-height: 1.65;
   margin-bottom: 40px;
+  letter-spacing: -0.01em;
 }
 
 .home-closing-text em {
@@ -144,8 +147,8 @@
 @media (max-width: 480px) {
   .home-intro        { padding: 64px 0; }
   .home-closing      { padding: 64px 0; }
-  .home-quote        { font-size: 1.5rem; }
-  .home-closing-text { font-size: 1.3rem; }
+  .home-quote        { font-size: 1rem; }
+  .home-closing-text { font-size: 0.95rem; }
   .service-tile      { height: 260px; }
-  .service-tile-label h3 { font-size: 1.4rem; }
+  .service-tile-label h3 { font-size: 1.1rem; }
 }
