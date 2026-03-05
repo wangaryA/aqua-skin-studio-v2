@@ -41,7 +41,7 @@
 }
 
 .logo-img {
-  height: 72px;
+  height: 90px;
   width: auto;
   display: block;
   mix-blend-mode: multiply;
@@ -74,7 +74,7 @@
   color: var(--charcoal);
   text-decoration: none;
   font-family: var(--font-body);
-  font-size: 0.62rem;
+  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -160,7 +160,7 @@
 /* 1440p+ */
 @media (min-width: 1440px) {
   .nav-links    { gap: 40px; }
-  .logo-img     { height: 84px; }
+  .logo-img     { height: 104px; }
   .navbar       { padding: 30px 0; }
   .navbar.scrolled { padding: 20px 0; }
 }
@@ -185,7 +185,7 @@
   }
 
   .logo-img {
-    height: 60px;
+    height: 72px;
   }
 
   .logo {
