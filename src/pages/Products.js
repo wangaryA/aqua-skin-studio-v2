@@ -23,7 +23,7 @@ const products = [
   {
     name: 'PCA Skin',
     description: 'Professional-grade products formulated with effective ingredients to improve skin health and correct a variety of skin concerns.',
-    image: 'https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=400&h=300&fit=crop',
+    image: '/images/PCA-skin.jpg',
     features: ['Gentle Formulas', 'Sensitive Skin Options', 'Daily Care Essentials']
   }
 ];
