@@ -4,94 +4,83 @@ import './TreatmentsPage.css';
 
 const treatments = [
   {
-    category: 'Signature Facials',
+    category: 'HydroPeptide Luxury Facials',
+    note: 'Each treatment includes a personalized consultation, customized care of face, neck, and chest, and a post-treatment plan.',
     items: [
       {
-        name: 'Aqua Signature Facial',
-        duration: '75 min',
-        price: '$150',
-        description: 'Our most comprehensive facial experience. Includes deep cleansing, exfoliation, extractions, customized mask, and relaxing massage. Tailored to your specific skin concerns for optimal results.'
-      },
-      {
-        name: 'Custom HydraFacial',
-        duration: '60 min',
+        name: 'HydroLUXE Oxygen Facial',
+        duration: '50 min',
         price: '$175',
-        description: 'Advanced hydradermabrasion treatment that cleanses, extracts, and hydrates. Includes LED therapy and customized serums for your skin type.'
+        description: 'An energizing, oxygen-infused facial that revitalizes dull, fatigued skin and restores a fresh, luminous glow. This treatment pairs gentle exfoliation with HydroPeptide\'s advanced oxygenation technology to boost cellular vitality, brighten tone, and smooth texture. A peptide-rich infusion mask plus RED LED light deeply hydrates and firms while targeted serums enhance radiance and elasticity. Skin feels refreshed, oxygenated, and beautifully renewed.'
       },
       {
-        name: 'Express Glow Facial',
-        duration: '30 min',
-        price: '$75',
-        description: 'Perfect for busy schedules. Quick yet effective treatment includes cleansing, exfoliation, and hydrating mask for an instant glow.'
-      },
-      {
-        name: 'Gentleman\'s Facial',
-        duration: '60 min',
-        price: '$125',
-        description: 'Designed specifically for men\'s skin. Deep cleansing, exfoliation, and hydration with attention to razor burn and ingrown hairs.'
-      }
-    ]
-  },
-  {
-    category: 'Anti-Aging Treatments',
-    items: [
-      {
-        name: 'Age-Defying Facial',
-        duration: '75 min',
+        name: 'HydroGLOW VIT C Brightening Facial',
+        duration: '50 min',
         price: '$175',
-        description: 'Targeted treatment for fine lines, wrinkles, and loss of firmness. Includes peptide-rich serums, microcurrent therapy, and collagen-boosting mask.'
+        description: 'A brightening, peptide-rich facial designed to restore radiance, refine texture, and leave the skin visibly luminous. This treatment blends gentle exfoliation, potent Vitamin C delivery, and HydroPeptide\'s advanced peptide technology to smooth, firm, and even the complexion. A hydrating infusion mask replenishes moisture while targeted serums boost elasticity and glow. Skin emerges refreshed, plump, and lit-from-within.'
       },
       {
-        name: 'Collagen Induction Therapy',
-        duration: '60 min',
-        price: '$250',
-        description: 'Microneedling treatment to stimulate natural collagen production. Reduces fine lines, acne scars, and improves overall skin texture.'
+        name: 'HydroQUENCH Moisture Infusion Facial',
+        duration: '50 min',
+        price: '$175',
+        description: 'A deeply replenishing facial that drenches the skin in multi-weight hyaluronic acid, restorative peptides, and barrier-strengthening actives. Gentle exfoliation smooths the surface before a concentrated hydration mask delivers long-lasting moisture and visible plumping. Targeted serums reinforce elasticity and calm the complexion, leaving skin supple, dewy, and comfortably nourished.'
       },
       {
-        name: 'Firming & Lifting Facial',
-        duration: '60 min',
-        price: '$165',
-        description: 'Non-invasive lifting treatment using advanced technology to tighten and firm sagging skin on face and neck.'
-      }
-    ]
-  },
-  {
-    category: 'Corrective Treatments',
-    items: [
-      {
-        name: 'Acne Clarifying Facial',
-        duration: '60 min',
-        price: '$135',
-        description: 'Deep cleansing treatment for acne-prone skin. Includes extractions, high-frequency therapy, and calming anti-bacterial mask.'
+        name: 'HydroPURE Purifying Facial',
+        duration: '50 min',
+        price: '$175',
+        description: 'This refining facial quickly addresses skin texture and tone concerns without compromising the natural moisture barrier. A potent dose of acne-targeting salicylic acid, antioxidants, and patented anti-microbial peptide technology instantly smooths dullness and increases skin clarity. Extra time is allocated for extractions within this treatment.'
       },
       {
-        name: 'Brightening Treatment',
-        duration: '60 min',
-        price: '$145',
-        description: 'Target hyperpigmentation and uneven skin tone with vitamin C, kojic acid, and gentle chemical exfoliation.'
+        name: "Gentleman's Signature Facial",
+        duration: '50 min',
+        price: '$175',
+        description: 'Designed to address all major signs of aging, this transformative treatment is powered by high-performance, peptide-packed PRO products to purify and smooth even the toughest skin concerns. Includes a brow shaping service to make you feel clean and polished.'
       },
-      {
-        name: 'Sensitive Skin Facial',
-        duration: '60 min',
-        price: '$125',
-        description: 'Gentle treatment for rosacea, reactive, or sensitized skin. Focuses on calming inflammation and strengthening the skin barrier.'
-      }
-    ]
-  },
-  {
-    category: 'Body Treatments',
-    items: [
       {
         name: 'Back Facial',
-        duration: '45 min',
-        price: '$95',
-        description: 'Extend your skincare routine to hard-to-reach areas. Includes cleansing, exfoliation, extractions, and hydrating mask for the back.'
+        duration: '50 min',
+        price: '$175',
+        description: 'Our customized back facial targets those hard-to-reach areas to clear clogged pores, reduce pigmentation, and treat acne. Includes deep cleansing, light chemical peel, extractions, and a customized mask with LED therapy. After your session, you\'ll notice visibly healthier, glowing skin — hydrated with a smoother, more even skin tone.'
+      }
+    ]
+  },
+  {
+    category: 'Diamond Glow by SkinMedica',
+    note: 'DiamondGlow® delivers revolutionary skin transformation through patented 3-in-1 technology that simultaneously exfoliates, extracts, and infuses professional-grade serums. This advanced facial treatment uses precision diamond-tip resurfacing to reveal instantly brighter, smoother, and more radiant skin with zero downtime.',
+    subnote: 'Face, neck, and chest treated with each session.',
+    items: [
+      {
+        name: 'Diamond Glow Express',
+        duration: '30 min',
+        price: '$180',
+        description: ''
       },
       {
-        name: 'Body Exfoliation & Wrap',
-        duration: '60 min',
-        price: '$125',
-        description: 'Full body treatment with sea salt scrub and nourishing body wrap. Leaves skin silky smooth and deeply hydrated.'
+        name: 'Diamond Glow LUXE Facial',
+        duration: '50 min',
+        price: '$200',
+        description: ''
+      }
+    ]
+  },
+  {
+    category: 'Advanced Treatments',
+    items: [
+      {
+        name: 'Dr. Pen Micro Needling + Custom Skin Booster',
+        price: '$200–$400',
+        description: ''
+      },
+      {
+        name: 'BioRePeel Glass Skin Peel',
+        price: '$175',
+        description: ''
+      },
+      {
+        name: 'SkinMedica Vitalize Peel',
+        price: '$175',
+        description: ''
       }
     ]
   }
@@ -103,7 +92,7 @@ function TreatmentsPage() {
       <section className="treatments-page-hero">
         <div className="container">
           <h1>Our Treatments</h1>
-          <p className="subtitle">Customized Skincare Solutions for Every Concern</p>
+          <p className="subtitle">Advanced Skincare Tailored to You</p>
         </div>
       </section>
 
@@ -111,26 +100,27 @@ function TreatmentsPage() {
         <div className="container">
           <div className="treatments-intro">
             <p>
-              Every treatment at Aqua Skin & Body Studio begins with a thorough skin analysis
-              to ensure we address your unique concerns. Our expert aestheticians customize
-              each service to deliver optimal results for your skin type and goals.
+              Every treatment at Aqua Skin &amp; Body Studio begins with a thorough skin
+              consultation to ensure we address your unique concerns with precision and care.
             </p>
           </div>
 
           {treatments.map((category, index) => (
             <div key={index} className="treatment-category">
               <h2>{category.category}</h2>
+              {category.note && <p className="category-note">{category.note}</p>}
+              {category.subnote && <p className="category-subnote">{category.subnote}</p>}
               <div className="treatment-list">
                 {category.items.map((treatment, i) => (
                   <div key={i} className="treatment-item">
                     <div className="treatment-header">
                       <h3>{treatment.name}</h3>
                       <div className="treatment-meta">
-                        <span className="duration">{treatment.duration}</span>
+                        {treatment.duration && <span className="duration">{treatment.duration}</span>}
                         <span className="price">{treatment.price}</span>
                       </div>
                     </div>
-                    <p>{treatment.description}</p>
+                    {treatment.description && <p>{treatment.description}</p>}
                   </div>
                 ))}
               </div>
@@ -138,12 +128,12 @@ function TreatmentsPage() {
           ))}
 
           <div className="treatments-note">
-            <h3>Important Information</h3>
+            <h3>Good to Know</h3>
             <ul>
               <li>All facial treatments include a complimentary skin consultation</li>
-              <li>Series packages available for enhanced results (ask about our treatment series discounts)</li>
-              <li>Add-on services available: LED therapy (+$35), Dermaplaning (+$40), Eye treatment (+$25)</li>
-              <li>Please arrive 10 minutes before your appointment</li>
+              <li>Please arrive 10 minutes before your scheduled appointment</li>
+              <li>Facial enhancements (LED, dermaplane, extractions) available as add-ons</li>
+              <li>Contact us to discuss which treatment is right for your skin goals</li>
             </ul>
           </div>
         </div>
@@ -152,7 +142,7 @@ function TreatmentsPage() {
       <section className="treatments-cta">
         <div className="container">
           <h2>Ready to Transform Your Skin?</h2>
-          <p>Book your appointment today and start your journey to healthier, more radiant skin.</p>
+          <p>Book your appointment and start your journey to healthier, more radiant skin.</p>
           <Link to="/appointments" className="btn btn-primary">Book Now</Link>
         </div>
       </section>
