@@ -1,7 +1,7 @@
 /* Contact Hero */
 .contact-hero {
   background: #D6EBF5;
-  padding: 160px 0 70px;
+  padding: 220px 0 70px;
   border-bottom: 1px solid rgba(45, 73, 96, 0.1);
   text-align: center;
 }
@@ -214,7 +214,7 @@
 
 /* Responsive */
 @media (min-width: 1440px) {
-  .contact-hero    { padding: 190px 0 90px; }
+  .contact-hero    { padding: 240px 0 90px; }
   .contact-content { padding: 120px 0 90px; }
   .contact-grid    { gap: 80px; }
   .map-section     { padding: 80px 0 100px; }

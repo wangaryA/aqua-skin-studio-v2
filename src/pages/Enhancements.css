@@ -1,7 +1,7 @@
 /* Enhancements Hero */
 .enhancements-hero {
   background: #D6EBF5;
-  padding: 160px 0 70px;
+  padding: 220px 0 70px;
   border-bottom: 1px solid rgba(45, 73, 96, 0.1);
   text-align: center;
 }
@@ -117,7 +117,7 @@
 
 /* Responsive */
 @media (max-width: 768px) {
-  .enhancements-hero    { padding: 120px 0 60px; }
+  .enhancements-hero    { padding: 140px 0 60px; }
   .enhancements-list-section { padding: 48px 0 64px; }
   .enhancements-cta     { padding: 60px 0; }
 }

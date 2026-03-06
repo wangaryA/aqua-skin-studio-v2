@@ -37,20 +37,16 @@ function Navbar() {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''} ${transparent ? 'transparent' : ''} ${hidden ? 'hidden' : ''}`}>
       <div className="container navbar-container">
 
-        {/* Left nav links */}
-        <ul className="nav-links nav-left">
-          <li><Link to="/overview">About</Link></li>
-          <li><Link to="/treatments">Treatments</Link></li>
-          <li><Link to="/enhancements">Enhancements</Link></li>
-        </ul>
-
-        {/* Centered logo */}
+        {/* Logo — LEFT */}
         <Link to="/" className="logo">
           <img src="/images/Final-Final-Hero-Image-removebg-preview.png" alt="Aqua Skin & Body Studio" className="logo-img" />
         </Link>
 
-        {/* Right nav links */}
-        <ul className="nav-links nav-right">
+        {/* Nav links — RIGHT */}
+        <ul className="nav-links">
+          <li><Link to="/overview">About</Link></li>
+          <li><Link to="/treatments">Treatments</Link></li>
+          <li><Link to="/enhancements">Enhancements</Link></li>
           <li><Link to="/products">Products</Link></li>
           <li><Link to="/gift-certificate">Gift Cards</Link></li>
           <li><Link to="/contact">Contact</Link></li>

@@ -1,7 +1,7 @@
 /* Products Hero */
 .products-hero {
   background: #D6EBF5;
-  padding: 160px 0 70px;
+  padding: 220px 0 70px;
   border-bottom: 1px solid rgba(45, 73, 96, 0.1);
   text-align: center;
 }
@@ -135,7 +135,7 @@
 
 /* Responsive */
 @media (min-width: 1440px) {
-  .products-hero        { padding: 190px 0 90px; }
+  .products-hero        { padding: 240px 0 90px; }
   .products-intro,
   .products-cta         { padding: 80px 0; }
   .products-grid-section { padding: 80px 0 100px; }
@@ -144,7 +144,7 @@
 
 @media (max-width: 1024px) {
   .products-grid        { gap: 28px; }
-  .products-hero        { padding: 160px 0 56px; }
+  .products-hero        { padding: 220px 0 56px; }
   .products-grid-section { padding: 50px 0 64px; }
 }
 
