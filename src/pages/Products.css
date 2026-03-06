@@ -1,20 +1,20 @@
 /* Products Hero */
 .products-hero {
-  background: var(--cream);
+  background: #64a5c1;
   padding: 100px 0 70px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   text-align: center;
 }
 
 .products-hero h1 {
-  color: var(--charcoal);
+  color: var(--white);
   margin-bottom: 16px;
 }
 
 .products-hero .subtitle {
   font-family: var(--font-heading);
   font-style: italic;
-  color: var(--warm-gray);
+  color: rgba(255, 255, 255, 0.85);
   font-size: 1.2rem;
 }
 

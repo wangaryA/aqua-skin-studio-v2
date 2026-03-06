@@ -185,15 +185,15 @@
   }
 
   .navbar {
-    padding: 24px 0 4px 0;
+    padding: 10px 0 4px 0;
   }
 
   .navbar.scrolled {
-    padding: 16px 0 4px 0;
+    padding: 10px 0 4px 0;
   }
 
   .logo-img {
-    height: 118px;
+    height: 80px;
   }
 
   .logo {
