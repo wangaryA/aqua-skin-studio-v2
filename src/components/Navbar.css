@@ -4,7 +4,7 @@
   left: 0;
   right: 0;
   z-index: 1000;
-  padding: 4px 0;
+  padding: 0;
   overflow: visible;
   background: transparent;
   transition: transform 0.35s ease;
@@ -25,10 +25,6 @@
 
 .navbar.hidden {
   transform: translateY(-100%);
-}
-
-.navbar.scrolled {
-  padding: 2px 0;
 }
 
 .navbar.transparent::before {
@@ -54,43 +50,15 @@
   background: #2D4960;
 }
 
-/* Flex layout: logo left, links right */
+/* Navbar container — links pushed to the right */
 .navbar-container {
   position: relative;
   z-index: 1;
+  height: 70px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 24px;
-}
-
-/* Subpages: anchor logo + links to top so they sit within the strip */
-.navbar.subpage .navbar-container {
-  align-items: flex-start;
-}
-
-.navbar.subpage .logo,
-.navbar.subpage .nav-links {
-  margin-top: 20px;
-}
-
-/* Logo — left */
-.logo {
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-
-.logo-img {
-  height: 180px;
-  width: auto;
-  display: block;
-  transition: opacity 0.3s ease;
-}
-
-.logo-img:hover {
-  opacity: 0.85;
 }
 
 /* Nav links */
@@ -101,7 +69,6 @@
   gap: 32px;
   margin: 0;
   padding: 0;
-  justify-content: flex-end;
 }
 
 .nav-links li a {
@@ -193,17 +160,20 @@
 
 /* 1440p+ */
 @media (min-width: 1440px) {
-  .nav-links        { gap: 40px; }
-  .logo-img         { height: 200px; }
-  .navbar           { padding: 6px 0; }
-  .navbar.scrolled  { padding: 4px 0; }
-  .navbar::before   { height: 80px; }
+  .nav-links          { gap: 40px; }
+  .navbar-container   { height: 80px; }
+  .navbar::before     { height: 80px; }
 }
 
 /* Responsive */
 @media (max-width: 960px) {
   .navbar-container {
-    justify-content: space-between;
+    justify-content: flex-end;
+    height: 60px;
+  }
+
+  .navbar::before {
+    height: 60px;
   }
 
   .nav-links {
@@ -216,26 +186,5 @@
 
   .nav-mobile {
     display: flex;
-  }
-
-  .logo-img {
-    height: 100px;
-  }
-
-  .navbar {
-    padding: 10px 0 4px 0;
-  }
-
-  .navbar.scrolled {
-    padding: 10px 0 4px 0;
-  }
-
-  .navbar::before {
-    height: 114px;
-  }
-
-  .navbar.subpage .logo,
-  .navbar.subpage .nav-links {
-    margin-top: 0;
   }
 }

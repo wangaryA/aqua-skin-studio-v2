@@ -34,13 +34,8 @@ function Navbar() {
   }, [location]);
 
   return (
-    <nav className={`navbar ${scrolled ? 'scrolled' : ''} ${transparent ? 'transparent' : ''} ${hidden ? 'hidden' : ''} ${!isHome ? 'subpage' : ''}`}>
+    <nav className={`navbar ${scrolled ? 'scrolled' : ''} ${transparent ? 'transparent' : ''} ${hidden ? 'hidden' : ''}`}>
       <div className="container navbar-container">
-
-        {/* Logo — LEFT */}
-        <Link to="/" className="logo">
-          <img src="/images/Final-Final-Hero-Image-removebg-preview.png" alt="Aqua Skin & Body Studio" className="logo-img" />
-        </Link>
 
         {/* Nav links — RIGHT */}
         <ul className="nav-links">
