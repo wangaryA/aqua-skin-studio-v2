@@ -64,6 +64,11 @@
   gap: 24px;
 }
 
+/* On subpages: anchor to top so logo + links sit within the background strip */
+.navbar.subpage .navbar-container {
+  align-items: flex-start;
+}
+
 /* Logo — left */
 .logo {
   text-decoration: none;
@@ -92,6 +97,11 @@
   margin: 0;
   padding: 0;
   justify-content: flex-end;
+}
+
+/* Vertically center links within the 70px background strip on subpages */
+.navbar.subpage .nav-links {
+  margin-top: 24px;
 }
 
 .nav-links li a {

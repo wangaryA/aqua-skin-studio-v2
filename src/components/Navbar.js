@@ -34,7 +34,7 @@ function Navbar() {
   }, [location]);
 
   return (
-    <nav className={`navbar ${scrolled ? 'scrolled' : ''} ${transparent ? 'transparent' : ''} ${hidden ? 'hidden' : ''}`}>
+    <nav className={`navbar ${scrolled ? 'scrolled' : ''} ${transparent ? 'transparent' : ''} ${hidden ? 'hidden' : ''} ${!isHome ? 'subpage' : ''}`}>
       <div className="container navbar-container">
 
         {/* Logo — LEFT */}
