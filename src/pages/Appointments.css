@@ -20,7 +20,7 @@
 /* Appointments Content */
 .appointments-content {
   padding: 80px 0;
-  background: var(--cream);
+  background: #D6EBF5;
 }
 
 .appointments-grid {
@@ -176,7 +176,7 @@
 /* Appointments CTA */
 .appointments-cta {
   padding: 80px 0;
-  background: var(--white);
+  background: #EAF4FB;
   text-align: center;
 }
 

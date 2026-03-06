@@ -19,7 +19,7 @@
 /* Enhancements Intro */
 .enhancements-intro {
   padding: 60px 0;
-  background: var(--white);
+  background: #EAF4FB;
   text-align: center;
 }
 
@@ -34,7 +34,7 @@
 /* Enhancements List */
 .enhancements-list-section {
   padding: 60px 0 80px;
-  background: var(--white);
+  background: #EAF4FB;
   max-width: 760px;
   margin: 0 auto;
 }
@@ -97,8 +97,8 @@
 /* Enhancements CTA */
 .enhancements-cta {
   padding: 100px 0 70px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
-  background: var(--white);
+  border-bottom: 1px solid rgba(45, 73, 96, 0.1);
+  background: #D6EBF5;
   text-align: center;
 }
 

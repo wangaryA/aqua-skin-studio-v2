@@ -19,8 +19,8 @@
 /* Contact Content */
 .contact-content {
   padding: 100px 0 70px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
-  background: var(--white);
+  border-bottom: 1px solid rgba(45, 73, 96, 0.1);
+  background: #EAF4FB;
 }
 
 .contact-grid {
@@ -101,7 +101,7 @@
 
 /* Contact Form */
 .contact-form-section {
-  background: var(--cream);
+  background: #D6EBF5;
   padding: 40px;
   border-radius: 20px;
 }
@@ -193,7 +193,7 @@
 /* Map Section */
 .map-section {
   padding: 60px 0 80px;
-  background: var(--cream);
+  background: #D6EBF5;
 }
 
 .map-section h2 {
