@@ -5,9 +5,13 @@
   right: 0;
   z-index: 1000;
   padding: 24px 0;
-  transition: background 0.4s ease, padding 0.4s ease, border-color 0.4s ease;
-  background: #7fb3cf61;
-  border-bottom: 1px solid #0000000f;
+  transition: background 0.4s ease, padding 0.4s ease, border-color 0.4s ease, transform 0.35s ease;
+  background: transparent;
+  border-bottom: 1px solid transparent;
+}
+
+.navbar.hidden {
+  transform: translateY(-100%);
 }
 
 
@@ -15,6 +19,7 @@
   padding: 16px 0;
   background: #7fb3cf61;
   border-bottom: 1px solid #0000000f;
+  backdrop-filter: blur(8px);
 }
 
 .navbar.transparent {
