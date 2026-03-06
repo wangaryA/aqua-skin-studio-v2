@@ -25,6 +25,24 @@
   border-bottom-color: transparent;
 }
 
+/* Dark text on home hero (transparent navbar) */
+.navbar.transparent .nav-links li a {
+  color: #2D4960;
+}
+
+.navbar.transparent .nav-links li a:hover {
+  color: rgba(45, 73, 96, 0.55);
+}
+
+.navbar.transparent .nav-book a {
+  color: #2D4960 !important;
+  border-bottom-color: #2D4960;
+}
+
+.navbar.transparent .mobile-menu-toggle span {
+  background: #2D4960;
+}
+
 /* Flex layout: logo left, links right */
 .navbar-container {
   display: flex;
