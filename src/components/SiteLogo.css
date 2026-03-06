@@ -1,15 +1,15 @@
 .site-logo {
   position: fixed;
-  top: 0;
+  top: 7px;
   left: 40px;
   z-index: 1001;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   text-decoration: none;
 }
 
 .site-logo-img {
-  height: 180px;
+  height: 56px;
   width: auto;
   display: block;
   transition: opacity 0.3s ease;
@@ -19,32 +19,30 @@
   opacity: 0.85;
 }
 
-/* 1440p+ */
+/* 1440p+ (strip is 80px) */
 @media (min-width: 1440px) {
-  .site-logo      { left: 60px; }
-  .site-logo-img  { height: 200px; }
+  .site-logo      { top: 8px; left: 60px; }
+  .site-logo-img  { height: 64px; }
 }
 
-/* Laptop / large tablet */
+/* Laptop */
 @media (max-width: 1280px) {
   .site-logo      { left: 28px; }
-  .site-logo-img  { height: 160px; }
 }
 
 /* Tablet */
 @media (max-width: 1024px) {
   .site-logo      { left: 20px; }
-  .site-logo-img  { height: 130px; }
 }
 
-/* Mobile */
+/* Mobile (strip is 60px) */
 @media (max-width: 960px) {
-  .site-logo      { top: 6px; left: 14px; }
-  .site-logo-img  { height: 88px; }
+  .site-logo      { top: 8px; left: 14px; }
+  .site-logo-img  { height: 44px; }
 }
 
 /* Small phones */
 @media (max-width: 480px) {
-  .site-logo      { top: 4px; left: 10px; }
-  .site-logo-img  { height: 70px; }
+  .site-logo      { top: 6px; left: 10px; }
+  .site-logo-img  { height: 38px; }
 }
