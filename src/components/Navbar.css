@@ -184,8 +184,16 @@
     display: flex;
   }
 
+  .navbar {
+    padding: 24px 0 4px 0;
+  }
+
+  .navbar.scrolled {
+    padding: 16px 0 4px 0;
+  }
+
   .logo-img {
-    height: 96px;
+    height: 118px;
   }
 
   .logo {
