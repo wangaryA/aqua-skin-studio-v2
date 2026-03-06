@@ -66,7 +66,12 @@
 
 /* On subpages: anchor to top so logo + links sit within the background strip */
 .navbar.subpage .navbar-container {
-  align-items: flex-start;
+  align-items: center;
+}
+
+/* Shrink logo on subpages so it fits within the 70px strip */
+.navbar.subpage .logo-img {
+  height: 55px;
 }
 
 /* Logo — left */
@@ -99,10 +104,6 @@
   justify-content: flex-end;
 }
 
-/* Vertically center links within the 70px background strip on subpages */
-.navbar.subpage .nav-links {
-  margin-top: 24px;
-}
 
 .nav-links li a {
   color: #ffffff;
