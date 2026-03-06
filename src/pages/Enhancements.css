@@ -1,7 +1,7 @@
 /* Enhancements Hero */
 .enhancements-hero {
   background: #D6EBF5;
-  padding: 100px 0 70px;
+  padding: 160px 0 70px;
   border-bottom: 1px solid rgba(45, 73, 96, 0.1);
   text-align: center;
 }
@@ -117,13 +117,13 @@
 
 /* Responsive */
 @media (max-width: 768px) {
-  .enhancements-hero    { padding: 60px 0; }
+  .enhancements-hero    { padding: 120px 0 60px; }
   .enhancements-list-section { padding: 48px 0 64px; }
   .enhancements-cta     { padding: 60px 0; }
 }
 
 @media (max-width: 480px) {
-  .enhancements-hero    { padding: 48px 0; }
+  .enhancements-hero    { padding: 110px 0 48px; }
   .enhancements-hero h1 { font-size: clamp(2rem, 9vw, 3rem); }
   .enhancements-list-section { padding: 40px 0 52px; }
   .enhancement-row      { flex-direction: column; align-items: flex-start; gap: 4px; }

@@ -1,7 +1,7 @@
 /* Appointments Hero */
 .appointments-hero {
   background: #D6EBF5;
-  padding: 100px 0 80px;
+  padding: 160px 0 80px;
   text-align: center;
 }
 
@@ -195,7 +195,7 @@
 
 /* Responsive */
 @media (min-width: 1440px) {
-  .appointments-hero    { padding: 120px 0 100px; }
+  .appointments-hero    { padding: 190px 0 100px; }
   .appointments-content { padding: 100px 0; }
   .appointments-cta     { padding: 100px 0; }
 }
@@ -216,7 +216,7 @@
 
 @media (max-width: 768px) {
   .appointments-hero {
-    padding: 60px 0;
+    padding: 120px 0 60px;
   }
 
   .appointments-content {
@@ -235,7 +235,7 @@
 }
 
 @media (max-width: 480px) {
-  .appointments-hero    { padding: 48px 0 40px; }
+  .appointments-hero    { padding: 110px 0 40px; }
   .appointments-hero h1 { font-size: clamp(2rem, 9vw, 3rem); }
   .appointments-hero .subtitle { font-size: 1rem; }
   .appointments-content { padding: 48px 0; }

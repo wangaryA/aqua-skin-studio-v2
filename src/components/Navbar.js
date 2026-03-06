@@ -8,7 +8,8 @@ function Navbar() {
   const [hidden, setHidden] = useState(false);
   const lastScrollY = useRef(0);
   const location = useLocation();
-  const transparent = !scrolled;
+  const isHome = location.pathname === '/';
+  const transparent = isHome && !scrolled;
 
   useEffect(() => {
     const handleScroll = () => {
