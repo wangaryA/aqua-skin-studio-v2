@@ -6,7 +6,7 @@ function SiteLogo() {
   return (
     <Link to="/" className="site-logo">
       <img
-        src="/images/Final-Final-Hero-Image-removebg-preview.png"
+        src="/images/LogoSize.jpg"
         alt="Aqua Skin & Body Studio"
         className="site-logo-img"
       />
