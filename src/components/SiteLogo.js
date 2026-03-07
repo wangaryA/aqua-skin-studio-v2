@@ -10,6 +10,10 @@ function SiteLogo() {
         alt="Aqua Skin & Body Studio"
         className="site-logo-img"
       />
+      <div className="site-logo-text">
+        <span className="logo-text-aqua">AQUA</span>
+        <span className="logo-text-sub">SKIN &amp; BODY STUDIO</span>
+      </div>
     </Link>
   );
 }

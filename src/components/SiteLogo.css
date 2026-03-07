@@ -5,7 +5,12 @@
   z-index: 1001;
   display: flex;
   align-items: center;
+  gap: 10px;
   text-decoration: none;
+}
+
+.site-logo:hover .site-logo-img {
+  opacity: 0.85;
 }
 
 .site-logo-img {
@@ -13,36 +18,67 @@
   width: auto;
   display: block;
   transition: opacity 0.3s ease;
+  flex-shrink: 0;
 }
 
-.site-logo-img:hover {
-  opacity: 0.85;
+/* Text block */
+.site-logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  gap: 3px;
 }
 
-/* 1440p+ (strip is 80px) */
+.logo-text-aqua {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  color: #1C3A52;
+  font-style: italic;
+}
+
+.logo-text-sub {
+  font-family: var(--font-body);
+  font-size: 0.52rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  color: #2D4960;
+  text-transform: uppercase;
+}
+
+/* 1440p+ */
 @media (min-width: 1440px) {
-  .site-logo      { top: 8px; left: 60px; }
-  .site-logo-img  { height: 64px; }
+  .site-logo        { top: 8px; left: 60px; gap: 12px; }
+  .site-logo-img    { height: 64px; }
+  .logo-text-aqua   { font-size: 1.55rem; }
+  .logo-text-sub    { font-size: 0.58rem; }
 }
 
 /* Laptop */
 @media (max-width: 1280px) {
-  .site-logo      { left: 28px; }
+  .site-logo        { left: 28px; }
 }
 
 /* Tablet */
 @media (max-width: 1024px) {
-  .site-logo      { left: 20px; }
+  .site-logo        { left: 20px; }
+  .logo-text-aqua   { font-size: 1.15rem; }
+  .logo-text-sub    { font-size: 0.48rem; }
 }
 
-/* Mobile (strip is 60px) */
+/* Mobile */
 @media (max-width: 960px) {
-  .site-logo      { top: 8px; left: 14px; }
-  .site-logo-img  { height: 44px; }
+  .site-logo        { top: 8px; left: 14px; gap: 7px; }
+  .site-logo-img    { height: 44px; }
+  .logo-text-aqua   { font-size: 1rem; }
+  .logo-text-sub    { font-size: 0.42rem; letter-spacing: 0.16em; }
 }
 
 /* Small phones */
 @media (max-width: 480px) {
-  .site-logo      { top: 6px; left: 10px; }
-  .site-logo-img  { height: 38px; }
+  .site-logo        { top: 6px; left: 10px; gap: 6px; }
+  .site-logo-img    { height: 38px; }
+  .logo-text-aqua   { font-size: 0.88rem; }
+  .logo-text-sub    { font-size: 0.38rem; letter-spacing: 0.12em; }
 }
