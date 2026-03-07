@@ -7,6 +7,11 @@
   align-items: center;
   gap: 2px;
   text-decoration: none;
+  transition: transform 0.35s ease;
+}
+
+.site-logo.hidden {
+  transform: translateY(-150%);
 }
 
 .site-logo:hover .site-logo-img {
