@@ -18,8 +18,8 @@
   left: 0;
   right: 0;
   height: 115px;
-  background: #89C4E1;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  background: #ffffff;
+  border-bottom: 1px solid rgba(45, 73, 96, 0.12);
   transition: background 0.4s ease, border-color 0.4s ease;
 }
 
