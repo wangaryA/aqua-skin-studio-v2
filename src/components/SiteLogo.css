@@ -5,7 +5,7 @@
   z-index: 1001;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 6px;
   text-decoration: none;
 }
 
@@ -49,7 +49,7 @@
 
 /* 1440p+ */
 @media (min-width: 1440px) {
-  .site-logo        { top: 10px; left: 60px; gap: 14px; }
+  .site-logo        { top: 10px; left: 60px; gap: 8px; }
   .site-logo-img    { height: 82px; }
   .logo-text-aqua   { font-size: 1.95rem; }
   .logo-text-sub    { font-size: 0.7rem; }
@@ -69,7 +69,7 @@
 
 /* Mobile */
 @media (max-width: 960px) {
-  .site-logo        { top: 9px; left: 14px; gap: 8px; }
+  .site-logo        { top: 9px; left: 14px; gap: 5px; }
   .site-logo-img    { height: 56px; }
   .logo-text-aqua   { font-size: 1.2rem; }
   .logo-text-sub    { font-size: 0.48rem; letter-spacing: 0.16em; }
@@ -77,7 +77,7 @@
 
 /* Small phones */
 @media (max-width: 480px) {
-  .site-logo        { top: 7px; left: 10px; gap: 7px; }
+  .site-logo        { top: 7px; left: 10px; gap: 4px; }
   .site-logo-img    { height: 46px; }
   .logo-text-aqua   { font-size: 1rem; }
   .logo-text-sub    { font-size: 0.42rem; letter-spacing: 0.12em; }
