@@ -22,11 +22,10 @@ function SiteLogo() {
 
   return (
     <Link to="/" className={`site-logo ${hidden ? 'hidden' : ''}`}>
-      <img
-        src="/Logo.png"
-        alt="Aqua Skin & Body Studio"
-        className="site-logo-img"
-      />
+      <picture>
+        <source srcSet="/Logo.webp" type="image/webp" />
+        <img src="/Logo.png" alt="Aqua Skin & Body Studio" className="site-logo-img" />
+      </picture>
       <div className="site-logo-text">
         <span className="logo-text-aqua">AQUA</span>
         <span className="logo-text-sub">SKIN &amp; BODY STUDIO</span>
