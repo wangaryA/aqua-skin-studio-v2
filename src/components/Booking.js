@@ -180,7 +180,7 @@ function Booking() {
               <h4>Studio Information</h4>
               <p><strong>Address:</strong> 728 3rd St, Suite C, Mukilteo, WA 98275</p>
               <p><strong>Phone:</strong> (425) 877-4987</p>
-              <p><strong>Email:</strong> rachelmichaels4@yahoo.com</p>
+              <p><strong>Email:</strong> RachelPhillips3@yahoo.com</p>
             </div>
           </div>
 

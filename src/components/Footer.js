@@ -28,7 +28,7 @@ function Footer() {
               <li>728 3rd St, Suite C</li>
               <li>Mukilteo, WA 98275</li>
               <li>(425) 877-4987</li>
-              <li>rachelmichaels4@yahoo.com</li>
+              <li>RachelPhillips3@yahoo.com</li>
             </ul>
           </div>
 
@@ -36,8 +36,12 @@ function Footer() {
             <h5>Connect</h5>
             <ul>
               <li><Link to="/appointments">Book Appointment</Link></li>
-              <li><Link to="/gift-certificate">Gift Certificates</Link></li>
               <li><Link to="/contact">Contact</Link></li>
+              <li>
+                <a href="https://www.instagram.com/aquaskinandbody" target="_blank" rel="noopener noreferrer">
+                  Instagram
+                </a>
+              </li>
               <li>
                 <a href="https://www.facebook.com/profile.php?id=61550784741105" target="_blank" rel="noopener noreferrer">
                   Facebook

@@ -73,7 +73,7 @@ function Contact() {
                   <div className="contact-icon">✉️</div>
                   <div className="contact-text">
                     <h3>Email Us</h3>
-                    <p>rachelmichaels4@yahoo.com</p>
+                    <p>RachelPhillips3@yahoo.com</p>
                   </div>
                 </div>
 
@@ -81,7 +81,7 @@ function Contact() {
                   <div className="contact-icon">🕐</div>
                   <div className="contact-text">
                     <h3>Hours</h3>
-                    <p>Mon-Fri: 10AM - 7PM<br />Sat: 9AM - 5PM<br />Sun: Closed</p>
+                    <p>Wed – Sat: 10AM – 6PM<br />By Appointment Only</p>
                   </div>
                 </div>
               </div>
@@ -89,7 +89,7 @@ function Contact() {
               <div className="social-links">
                 <h3>Follow Us</h3>
                 <div className="social-icons">
-                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-icon">
+                  <a href="https://www.instagram.com/aquaskinandbody" target="_blank" rel="noopener noreferrer" className="social-icon">
                     Instagram
                   </a>
                   <a href="https://www.facebook.com/profile.php?id=61550784741105" target="_blank" rel="noopener noreferrer" className="social-icon">

@@ -43,7 +43,7 @@ function Appointments() {
                   <span className="info-icon">✉️</span>
                   <div>
                     <strong>Email</strong>
-                    <p>rachelmichaels4@yahoo.com</p>
+                    <p>RachelPhillips3@yahoo.com</p>
                   </div>
                 </div>
               </div>
@@ -51,35 +51,36 @@ function Appointments() {
               <div className="info-card">
                 <h2>Hours of Operation</h2>
                 <div className="hours-list">
-                  <div className="hours-item">
+                  <div className="hours-item closed">
                     <span>Monday</span>
-                    <span>10:00 AM - 6:00 PM</span>
+                    <span>Closed</span>
                   </div>
-                  <div className="hours-item">
+                  <div className="hours-item closed">
                     <span>Tuesday</span>
-                    <span>10:00 AM - 7:00 PM</span>
+                    <span>Closed</span>
                   </div>
                   <div className="hours-item">
                     <span>Wednesday</span>
-                    <span>10:00 AM - 7:00 PM</span>
+                    <span>10:00 AM – 6:00 PM</span>
                   </div>
                   <div className="hours-item">
                     <span>Thursday</span>
-                    <span>10:00 AM - 7:00 PM</span>
+                    <span>10:00 AM – 6:00 PM</span>
                   </div>
                   <div className="hours-item">
                     <span>Friday</span>
-                    <span>10:00 AM - 6:00 PM</span>
+                    <span>10:00 AM – 6:00 PM</span>
                   </div>
                   <div className="hours-item">
                     <span>Saturday</span>
-                    <span>9:00 AM - 5:00 PM</span>
+                    <span>10:00 AM – 6:00 PM</span>
                   </div>
                   <div className="hours-item closed">
                     <span>Sunday</span>
                     <span>Closed</span>
                   </div>
                 </div>
+                <p style={{marginTop:'12px', fontSize:'0.85rem', color:'var(--warm-gray)'}}>By appointment only</p>
               </div>
             </div>
 
@@ -91,12 +92,12 @@ function Appointments() {
                   Select your preferred service, date, and time.
                 </p>
                 <a
-                  href="https://square.site/book/YOUR-BOOKING-LINK"
+                  href="https://www.vagaro.com/aquaskinandbodystudio"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary btn-large"
                 >
-                  Book Online Now
+                  Book on Vagaro
                 </a>
                 <p className="booking-note">
                   Prefer to speak with us? Call (425) 877-4987 to schedule your appointment.

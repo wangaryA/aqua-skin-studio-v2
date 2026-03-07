@@ -180,3 +180,22 @@
   .philosophy-card    { padding: 30px 20px; }
   .credentials        { padding: 22px; }
 }
+
+/* Staff coming soon */
+.staff-section {
+  padding: 60px 0;
+  background: #D6EBF5;
+  text-align: center;
+}
+
+.staff-section h2 {
+  color: var(--charcoal);
+  margin-bottom: 16px;
+}
+
+.staff-coming-soon {
+  color: var(--warm-gray);
+  font-size: 1rem;
+  font-style: italic;
+  letter-spacing: 0.05em;
+}

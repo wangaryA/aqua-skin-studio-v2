@@ -52,12 +52,18 @@ function Overview() {
                   <li>Customized Massage Therapy</li>
                   <li>Anti-Aging & Corrective Skincare</li>
                   <li>Hydration, Barrier Repair & Glow-Boosting Protocols</li>
-                  <li>Medical Aesthetics & Dermatology Pharmaceuticals</li>
                   <li>Personalized Homecare Guidance</li>
                 </ul>
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="staff-section">
+        <div className="container">
+          <h2>Meet Our Team</h2>
+          <p className="staff-coming-soon">Staff bios coming soon.</p>
         </div>
       </section>
 

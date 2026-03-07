@@ -43,7 +43,6 @@ function Navbar() {
           <li><Link to="/treatments">Treatments</Link></li>
           <li><Link to="/enhancements">Enhancements</Link></li>
           <li><Link to="/products">Products</Link></li>
-          <li><Link to="/gift-certificate">Gift Cards</Link></li>
           <li><Link to="/contact">Contact</Link></li>
           <li className="nav-book"><Link to="/appointments">Book</Link></li>
         </ul>
@@ -65,7 +64,6 @@ function Navbar() {
           <li><Link to="/treatments">Treatments</Link></li>
           <li><Link to="/enhancements">Enhancements</Link></li>
           <li><Link to="/products">Products</Link></li>
-          <li><Link to="/gift-certificate">Gift Cards</Link></li>
           <li><Link to="/contact">Contact</Link></li>
           <li className="nav-book"><Link to="/appointments">Book</Link></li>
         </ul>
