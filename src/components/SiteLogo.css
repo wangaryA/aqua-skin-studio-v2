@@ -75,7 +75,7 @@
 
 /* Mobile */
 @media (max-width: 960px) {
-  .site-logo        { top: 10px; left: 14px; gap: 2px; }
+  .site-logo        { top: 18px; left: 14px; gap: 2px; }
   .site-logo-img    { height: 68px; }
   .logo-text-aqua   { font-size: 1.3rem; }
   .logo-text-sub    { font-size: 0.48rem; letter-spacing: 0.16em; }
@@ -83,7 +83,7 @@
 
 /* Small phones */
 @media (max-width: 480px) {
-  .site-logo        { top: 8px; left: 10px; gap: 1px; }
+  .site-logo        { top: 16px; left: 10px; gap: 1px; }
   .site-logo-img    { height: 54px; }
   .logo-text-aqua   { font-size: 1.05rem; }
   .logo-text-sub    { font-size: 0.4rem; letter-spacing: 0.12em; }
