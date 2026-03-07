@@ -113,6 +113,75 @@
   text-transform: uppercase;
 }
 
+/* Brand Header */
+.brand-header {
+  padding: 60px 0;
+  background: #2D4960;
+}
+
+.brand-header-inner {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.brand-header-text h2 {
+  color: #ffffff;
+  font-size: 2.2rem;
+  letter-spacing: 0.1em;
+  margin-bottom: 16px;
+}
+
+.brand-header-text p {
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.8;
+  margin-bottom: 28px;
+  font-size: 1.05rem;
+}
+
+/* 3-column product grid */
+.products-grid-3 {
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 28px !important;
+}
+
+/* Product brand tag */
+.product-brand-tag {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--primary-aqua);
+  margin-bottom: 6px !important;
+}
+
+.product-tagline {
+  font-style: italic;
+  color: var(--warm-gray) !important;
+  font-size: 0.88rem !important;
+  margin-bottom: 10px !important;
+}
+
+/* Coming Soon */
+.products-coming-soon {
+  padding: 70px 0;
+  background: #2D4960;
+  text-align: center;
+}
+
+.products-coming-soon h2 {
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.products-coming-soon p {
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 560px;
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
 /* Products CTA */
 .products-cta {
   padding: 80px 0;
@@ -148,9 +217,16 @@
   .products-grid-section { padding: 50px 0 64px; }
 }
 
+@media (max-width: 1024px) {
+  .products-grid-3 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
 @media (max-width: 768px) {
-  .products-grid {
-    grid-template-columns: 1fr;
+  .products-grid,
+  .products-grid-3 {
+    grid-template-columns: 1fr !important;
   }
 
   .products-hero  { padding: 120px 0 60px; }
