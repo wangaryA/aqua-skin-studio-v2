@@ -21,12 +21,13 @@
   flex-shrink: 0;
 }
 
-/* Text block */
+/* Text block — negative margin pulls it into the logo's built-in whitespace */
 .site-logo-text {
   display: flex;
   flex-direction: column;
   line-height: 1;
   gap: 4px;
+  margin-left: -22px;
 }
 
 .logo-text-aqua {
