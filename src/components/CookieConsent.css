@@ -88,6 +88,14 @@
 
 /* Small phones */
 @media (max-width: 480px) {
-  .cookie-banner  { bottom: 0; width: 100%; left: 0; transform: none; padding: 20px 18px; }
-  .cookie-text    { font-size: 0.75rem; }
+  .cookie-banner {
+    bottom: 16px;
+    left: 12px;
+    right: 12px;
+    width: auto;
+    transform: none;
+    padding: 20px 18px;
+    padding-bottom: max(20px, env(safe-area-inset-bottom));
+  }
+  .cookie-text { font-size: 0.75rem; }
 }
