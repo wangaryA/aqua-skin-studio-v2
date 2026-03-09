@@ -1,6 +1,6 @@
 .site-logo {
   position: fixed;
-  top: 12px;
+  top: 10px;
   left: 40px;
   z-index: 1001;
   display: flex;
@@ -20,25 +20,25 @@
 }
 
 .site-logo-img {
-  height: 90px;
+  height: 58px;
   width: auto;
   display: block;
   transition: opacity 0.3s ease;
   flex-shrink: 0;
 }
 
-/* Text block — negative margin pulls it into the logo's built-in whitespace */
 .site-logo-text {
   display: flex;
   flex-direction: column;
   align-items: center;
   line-height: 1;
   gap: 4px;
+  margin-top: 4px;
 }
 
 .logo-text-aqua {
   font-family: var(--font-heading);
-  font-size: 1.9rem;
+  font-size: 1.25rem;
   font-weight: 400;
   letter-spacing: 0.18em;
   color: #1C3A52;
@@ -47,7 +47,7 @@
 
 .logo-text-sub {
   font-family: var(--font-body);
-  font-size: 0.66rem;
+  font-size: 0.52rem;
   font-weight: 600;
   letter-spacing: 0.22em;
   color: #2D4960;
@@ -56,10 +56,10 @@
 
 /* 1440p+ */
 @media (min-width: 1440px) {
-  .site-logo        { top: 14px; left: 60px; gap: 2px; }
-  .site-logo-img    { height: 102px; }
-  .logo-text-aqua   { font-size: 2.1rem; }
-  .logo-text-sub    { font-size: 0.72rem; }
+  .site-logo        { top: 12px; left: 60px; }
+  .site-logo-img    { height: 66px; }
+  .logo-text-aqua   { font-size: 1.4rem; }
+  .logo-text-sub    { font-size: 0.58rem; }
 }
 
 /* Laptop */
@@ -70,22 +70,22 @@
 /* Tablet */
 @media (max-width: 1024px) {
   .site-logo        { left: 20px; }
-  .logo-text-aqua   { font-size: 1.6rem; }
-  .logo-text-sub    { font-size: 0.58rem; }
+  .logo-text-aqua   { font-size: 1.1rem; }
+  .logo-text-sub    { font-size: 0.48rem; }
 }
 
 /* Mobile */
 @media (max-width: 960px) {
-  .site-logo        { top: 18px; left: 14px; gap: 2px; }
-  .site-logo-img    { height: 68px; }
-  .logo-text-aqua   { font-size: 1.3rem; }
-  .logo-text-sub    { font-size: 0.48rem; letter-spacing: 0.16em; }
+  .site-logo        { top: 10px; left: 14px; }
+  .site-logo-img    { height: 46px; }
+  .logo-text-aqua   { font-size: 0.95rem; }
+  .logo-text-sub    { font-size: 0.4rem; letter-spacing: 0.16em; }
 }
 
 /* Small phones */
 @media (max-width: 480px) {
-  .site-logo        { top: 16px; left: 10px; gap: 1px; }
-  .site-logo-img    { height: 54px; }
-  .logo-text-aqua   { font-size: 1.05rem; }
-  .logo-text-sub    { font-size: 0.4rem; letter-spacing: 0.12em; }
+  .site-logo        { top: 8px; left: 10px; }
+  .site-logo-img    { height: 38px; }
+  .logo-text-aqua   { font-size: 0.8rem; }
+  .logo-text-sub    { font-size: 0.34rem; letter-spacing: 0.12em; }
 }
