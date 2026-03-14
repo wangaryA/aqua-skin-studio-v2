@@ -70,7 +70,7 @@
   color: var(--white);
 }
 
-.service-tile-label h3 {
+.service-tile-title {
   font-family: var(--font-heading);
   font-size: clamp(1.1rem, 1.8vw, 1.5rem);
   font-weight: 300;
@@ -111,7 +111,7 @@
 }
 
 .home-closing-text em {
-  color: var(--muted-aqua);
+  color: #1B6E79;
   font-style: italic;
 }
 
@@ -150,5 +150,5 @@
   .home-quote        { font-size: 1rem; }
   .home-closing-text { font-size: 0.95rem; }
   .service-tile      { height: 260px; }
-  .service-tile-label h3 { font-size: 1.1rem; }
+  .service-tile-title { font-size: 1.1rem; }
 }

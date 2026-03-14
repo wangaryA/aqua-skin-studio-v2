@@ -33,7 +33,7 @@ function Home() {
               style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=700&h=900&fit=crop&fm=webp&q=50)' }}
             ></div>
             <div className="service-tile-label">
-              <h3>Facials</h3>
+              <p className="service-tile-title">Facials</p>
               <span>Explore →</span>
             </div>
           </Link>
@@ -44,7 +44,7 @@ function Home() {
               style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=900&h=1100&fit=crop&fm=webp&q=72)' }}
             ></div>
             <div className="service-tile-label">
-              <h3>Massage Therapy</h3>
+              <p className="service-tile-title">Massage Therapy</p>
               <span>Explore →</span>
             </div>
           </Link>
@@ -55,7 +55,7 @@ function Home() {
               style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=900&h=1100&fit=crop&fm=webp&q=72)' }}
             ></div>
             <div className="service-tile-label">
-              <h3>Enhancements</h3>
+              <p className="service-tile-title">Enhancements</p>
               <span>Explore →</span>
             </div>
           </Link>

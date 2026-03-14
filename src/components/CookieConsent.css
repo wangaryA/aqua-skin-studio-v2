@@ -67,15 +67,15 @@
 }
 
 .cookie-accept {
-  background: var(--muted-aqua);
+  background: #1B6E79;
   color: var(--white);
-  border-color: var(--muted-aqua);
+  border-color: #1B6E79;
 }
 
 .cookie-accept:hover {
   background: transparent;
-  color: var(--muted-aqua);
-  border-color: var(--muted-aqua);
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.6);
 }
 
 /* Tablet */
