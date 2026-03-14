@@ -114,6 +114,10 @@
   transition: background 0.4s ease;
 }
 
+.mobile-menu-toggle.open span {
+  background: #ffffff;
+}
+
 /* Mobile full-screen overlay menu */
 .nav-mobile {
   display: none;

@@ -27,6 +27,10 @@ function Navbar() {
   }, [mobileMenuOpen]);
 
   useEffect(() => {
+    document.body.classList.toggle('nav-open', mobileMenuOpen);
+  }, [mobileMenuOpen]);
+
+  useEffect(() => {
     setMobileMenuOpen(false);
     setScrolled(false);
     setHidden(false);
@@ -49,7 +53,7 @@ function Navbar() {
 
         {/* Mobile hamburger */}
         <button
-          className="mobile-menu-toggle"
+          className={`mobile-menu-toggle ${mobileMenuOpen ? 'open' : ''}`}
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           aria-label="Toggle menu"
         >

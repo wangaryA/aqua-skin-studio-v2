@@ -80,6 +80,20 @@
   .site-logo-img    { height: 46px; }
   .logo-text-aqua   { font-size: 0.95rem; }
   .logo-text-sub    { font-size: 0.4rem; letter-spacing: 0.16em; }
+
+  body.nav-open .logo-text-aqua,
+  body.nav-open .logo-text-sub {
+    color: #ffffff;
+  }
+
+  body.nav-open .site-logo {
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1001;
+  }
+  body.nav-open .site-logo.hidden {
+    transform: translateX(-50%) translateY(-150%);
+  }
 }
 
 /* Small phones */
@@ -88,4 +102,12 @@
   .site-logo-img    { height: 38px; }
   .logo-text-aqua   { font-size: 0.8rem; }
   .logo-text-sub    { font-size: 0.34rem; letter-spacing: 0.12em; }
+
+  body.nav-open .site-logo {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  body.nav-open .site-logo.hidden {
+    transform: translateX(-50%) translateY(-150%);
+  }
 }
