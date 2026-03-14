@@ -22,6 +22,7 @@ function App() {
         <Navbar />
         <SiteLogo />
         <CookieConsent />
+        <main>
         <Suspense fallback={null}>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -34,6 +35,7 @@ function App() {
             <Route path="/gift-certificate" element={<GiftCertificate />} />
           </Routes>
         </Suspense>
+        </main>
         <Footer />
       </div>
     </Router>

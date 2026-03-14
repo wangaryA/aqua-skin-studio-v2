@@ -13,7 +13,7 @@ function Footer() {
 
         <div className="footer-mid">
           <div className="footer-col">
-            <h5>Studio</h5>
+            <p className="footer-col-heading">Studio</p>
             <ul>
               <li><Link to="/overview">About</Link></li>
               <li><Link to="/treatments">Treatments</Link></li>
@@ -23,7 +23,7 @@ function Footer() {
           </div>
 
           <div className="footer-col">
-            <h5>Visit</h5>
+            <p className="footer-col-heading">Visit</p>
             <ul>
               <li>728 3rd St, Suite C</li>
               <li>Mukilteo, WA 98275</li>
@@ -34,7 +34,7 @@ function Footer() {
           </div>
 
           <div className="footer-col">
-            <h5>Connect</h5>
+            <p className="footer-col-heading">Connect</p>
             <ul>
               <li><Link to="/appointments">Book Appointment</Link></li>
               <li><Link to="/contact">Contact</Link></li>

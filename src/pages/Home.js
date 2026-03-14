@@ -30,7 +30,7 @@ function Home() {
           <Link to="/treatments" className="service-tile">
             <div
               className="service-tile-img"
-              style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=900&h=1100&fit=crop&fm=webp&q=72)' }}
+              style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=700&h=900&fit=crop&fm=webp&q=50)' }}
             ></div>
             <div className="service-tile-label">
               <h3>Facials</h3>

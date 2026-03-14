@@ -57,8 +57,8 @@
 
 .cookie-reject {
   background: transparent;
-  color: rgba(255, 255, 255, 0.45);
-  border-color: rgba(255, 255, 255, 0.18);
+  color: rgba(255, 255, 255, 0.85);
+  border-color: rgba(255, 255, 255, 0.5);
 }
 
 .cookie-reject:hover {
