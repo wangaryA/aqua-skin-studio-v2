@@ -79,14 +79,7 @@ function Products() {
                 HydroPeptide harnesses the science of epigenetics to visibly reduce
                 the signs of aging — delivering transformative results with every use.
               </p>
-              <a
-                href="https://hydropeptide.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-secondary"
-              >
-                Visit HydroPeptide.com
-              </a>
+              <p className="affiliate-coming-soon">Shop link coming soon — affiliate store launching shortly.</p>
             </div>
           </div>
         </div>

@@ -67,38 +67,6 @@ function Overview() {
         </div>
       </section>
 
-      <section className="philosophy-section">
-        <div className="container">
-          <h2>What Luxury Aesthetics Means at Aqua</h2>
-          <div className="philosophy-grid">
-            <div className="philosophy-card">
-              <div className="philosophy-icon">✨</div>
-              <h3>Luxury, Intimacy & Calm</h3>
-              <p>A curated, boutique environment designed to feel private, peaceful, and indulgent — never rushed, never crowded.</p>
-            </div>
-            <div className="philosophy-card">
-              <div className="philosophy-icon">🔬</div>
-              <h3>Expertise You Can Feel</h3>
-              <p>Three decades of aesthetic mastery, clinical training, and a deep understanding of skin health shape every service.</p>
-            </div>
-            <div className="philosophy-card">
-              <div className="philosophy-icon">💧</div>
-              <h3>Results-Driven Rituals</h3>
-              <p>Treatments blend science and sensorial luxury — clinical-grade skincare, expert touch, and customized protocols.</p>
-            </div>
-            <div className="philosophy-card">
-              <div className="philosophy-icon">🌿</div>
-              <h3>Whole-Body Wellness</h3>
-              <p>Facials and massage therapy offered together to support skin, body, and nervous system harmony.</p>
-            </div>
-            <div className="philosophy-card">
-              <div className="philosophy-icon">💎</div>
-              <h3>Elevated Client Care</h3>
-              <p>Every guest is welcomed like a VIP — thoughtful consultation, personalized recommendations, and a high-touch experience from start to finish.</p>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

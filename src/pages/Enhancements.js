@@ -14,13 +14,6 @@ const enhancements = [
       { name: 'Additional Extractions', price: '$25' }
     ]
   },
-  {
-    category: 'Lash Luxuries',
-    items: [
-      { name: 'Lash Lift and Tint', price: '$140' },
-      { name: 'Brow Lamination with Wax and Tint', price: '$120' }
-    ]
-  }
 ];
 
 function Enhancements() {
@@ -29,7 +22,7 @@ function Enhancements() {
       <section className="enhancements-hero">
         <div className="container">
           <h1>Enhancements</h1>
-          <p className="subtitle">Add-On Services &amp; Lash Luxuries</p>
+          <p className="subtitle">Add-On Services</p>
         </div>
       </section>
 

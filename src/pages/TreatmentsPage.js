@@ -32,13 +32,7 @@ const treatments = [
         description: 'This refining facial quickly addresses skin texture and tone concerns without compromising the natural moisture barrier. A potent dose of acne-targeting salicylic acid, antioxidants, and patented anti-microbial peptide technology instantly smooths dullness and increases skin clarity. Extra time is allocated for extractions within this treatment.'
       },
       {
-        name: "Gentleman's Signature Facial",
-        duration: '50 min',
-        price: '$175',
-        description: 'Designed to address all major signs of aging, this transformative treatment is powered by high-performance, peptide-packed PRO products to purify and smooth even the toughest skin concerns. Includes a brow shaping service to make you feel clean and polished.'
-      },
-      {
-        name: 'Back Facial',
+        name: 'The Back Treatment',
         duration: '50 min',
         price: '$175',
         description: 'Our customized back facial targets those hard-to-reach areas to clear clogged pores, reduce pigmentation, and treat acne. Includes deep cleansing, light chemical peel, extractions, and a customized mask with LED therapy. After your session, you\'ll notice visibly healthier, glowing skin — hydrated with a smoother, more even skin tone.'
@@ -52,6 +46,13 @@ const treatments = [
     items: [
       { name: 'Diamond Glow Express', duration: '30 min', price: '$180', description: '' },
       { name: 'Diamond Glow LUXE Facial', duration: '50 min', price: '$200', description: '' }
+    ]
+  },
+  {
+    category: 'Lash Luxuries',
+    items: [
+      { name: 'Lash Lift and Tint', price: '$140', description: '' },
+      { name: 'Brow Lamination with Wax and Tint', price: '$120', description: '' }
     ]
   },
   {

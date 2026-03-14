@@ -138,8 +138,8 @@ function Appointments() {
                 <div className="policy-section">
                   <h3>Payment</h3>
                   <p>
-                    We accept all major credit cards, debit cards, and cash. Payment is due
-                    at the time of service. Gift certificates are also available.
+                    We accept all major credit cards and debit cards. Payment is due
+                    at the time of service.
                   </p>
                 </div>
               </div>
