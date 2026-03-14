@@ -114,7 +114,8 @@
   transition: background 0.4s ease;
 }
 
-.mobile-menu-toggle.open span {
+.mobile-menu-toggle.open span,
+.navbar.transparent .mobile-menu-toggle.open span {
   background: #ffffff;
 }
 
