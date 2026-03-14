@@ -66,6 +66,7 @@ function Contact() {
                   <div className="contact-text">
                     <h3>Call Us</h3>
                     <p>(425) 877-4987</p>
+                    <p>(425) 371-6777</p>
                   </div>
                 </div>
 
@@ -73,7 +74,7 @@ function Contact() {
                   <div className="contact-icon">✉️</div>
                   <div className="contact-text">
                     <h3>Email Us</h3>
-                    <p>RachelPhillips3@yahoo.com</p>
+                    <p>HELLO@aquaskinandbodystudio.com</p>
                   </div>
                 </div>
 

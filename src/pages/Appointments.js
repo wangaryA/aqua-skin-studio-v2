@@ -37,13 +37,14 @@ function Appointments() {
                   <div>
                     <strong>Phone</strong>
                     <p>(425) 877-4987</p>
+                    <p>(425) 371-6777</p>
                   </div>
                 </div>
                 <div className="info-item">
                   <span className="info-icon">✉️</span>
                   <div>
                     <strong>Email</strong>
-                    <p>RachelPhillips3@yahoo.com</p>
+                    <p>HELLO@aquaskinandbodystudio.com</p>
                   </div>
                 </div>
               </div>
@@ -100,7 +101,7 @@ function Appointments() {
                   Book on Vagaro
                 </a>
                 <p className="booking-note">
-                  Prefer to speak with us? Call (425) 877-4987 to schedule your appointment.
+                  Prefer to speak with us? Call (425) 877-4987 or (425) 371-6777 to schedule your appointment.
                 </p>
               </div>
 

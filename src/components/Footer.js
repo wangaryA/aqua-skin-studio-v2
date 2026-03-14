@@ -28,7 +28,8 @@ function Footer() {
               <li>728 3rd St, Suite C</li>
               <li>Mukilteo, WA 98275</li>
               <li>(425) 877-4987</li>
-              <li>RachelPhillips3@yahoo.com</li>
+              <li>(425) 371-6777</li>
+              <li>HELLO@aquaskinandbodystudio.com</li>
             </ul>
           </div>
 
