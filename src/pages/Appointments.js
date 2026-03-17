@@ -26,17 +26,9 @@ function Appointments() {
                   </div>
                 </div>
                 <div className="info-item">
-                  <span className="info-icon">👤</span>
-                  <div>
-                    <strong>Contact</strong>
-                    <p>Rachel Phillips</p>
-                  </div>
-                </div>
-                <div className="info-item">
                   <span className="info-icon">📞</span>
                   <div>
                     <strong>Phone</strong>
-                    <p>(425) 877-4987</p>
                     <p>(425) 371-6777</p>
                   </div>
                 </div>
@@ -51,37 +43,7 @@ function Appointments() {
 
               <div className="info-card">
                 <h2>Hours of Operation</h2>
-                <div className="hours-list">
-                  <div className="hours-item closed">
-                    <span>Monday</span>
-                    <span>Closed</span>
-                  </div>
-                  <div className="hours-item closed">
-                    <span>Tuesday</span>
-                    <span>Closed</span>
-                  </div>
-                  <div className="hours-item">
-                    <span>Wednesday</span>
-                    <span>10:00 AM – 6:00 PM</span>
-                  </div>
-                  <div className="hours-item">
-                    <span>Thursday</span>
-                    <span>10:00 AM – 6:00 PM</span>
-                  </div>
-                  <div className="hours-item">
-                    <span>Friday</span>
-                    <span>10:00 AM – 6:00 PM</span>
-                  </div>
-                  <div className="hours-item">
-                    <span>Saturday</span>
-                    <span>10:00 AM – 6:00 PM</span>
-                  </div>
-                  <div className="hours-item closed">
-                    <span>Sunday</span>
-                    <span>Closed</span>
-                  </div>
-                </div>
-                <p style={{marginTop:'12px', fontSize:'0.85rem', color:'var(--warm-gray)'}}>By appointment only</p>
+                <p style={{fontSize:'0.95rem', color:'var(--charcoal)'}}>By Appointment Only</p>
               </div>
             </div>
 
@@ -101,7 +63,7 @@ function Appointments() {
                   Book on Vagaro
                 </a>
                 <p className="booking-note">
-                  Prefer to speak with us? Call (425) 877-4987 or (425) 371-6777 to schedule your appointment.
+                  Prefer to speak with us? Call (425) 371-6777 to schedule your appointment.
                 </p>
               </div>
 

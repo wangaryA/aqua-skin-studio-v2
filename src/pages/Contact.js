@@ -54,18 +54,9 @@ function Contact() {
                 </div>
 
                 <div className="contact-item">
-                  <div className="contact-icon">👤</div>
-                  <div className="contact-text">
-                    <h3>Contact</h3>
-                    <p>Rachel Phillips</p>
-                  </div>
-                </div>
-
-                <div className="contact-item">
                   <div className="contact-icon">📞</div>
                   <div className="contact-text">
                     <h3>Call Us</h3>
-                    <p>(425) 877-4987</p>
                     <p>(425) 371-6777</p>
                   </div>
                 </div>
@@ -82,7 +73,7 @@ function Contact() {
                   <div className="contact-icon">🕐</div>
                   <div className="contact-text">
                     <h3>Hours</h3>
-                    <p>Wed – Sat: 10AM – 6PM<br />By Appointment Only</p>
+                    <p>By Appointment Only</p>
                   </div>
                 </div>
               </div>

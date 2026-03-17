@@ -117,7 +117,7 @@ function GiftCertificate() {
               <h3>How do I purchase a gift certificate?</h3>
               <p>
                 Click the "Purchase Gift Certificate" button above to buy online. You can also
-                call us at (425) 877-4987 or (425) 371-6777, or visit the studio in person.
+                call us at (425) 371-6777, or visit the studio in person.
               </p>
             </div>
             <div className="faq-item">

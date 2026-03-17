@@ -179,7 +179,7 @@ function Booking() {
             <div className="studio-info">
               <h4>Studio Information</h4>
               <p><strong>Address:</strong> 728 3rd St, Suite C, Mukilteo, WA 98275</p>
-              <p><strong>Phone:</strong> (425) 877-4987 / (425) 371-6777</p>
+              <p><strong>Phone:</strong> (425) 371-6777</p>
               <p><strong>Email:</strong> HELLO@aquaskinandbodystudio.com</p>
             </div>
           </div>

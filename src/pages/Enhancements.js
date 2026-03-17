@@ -7,11 +7,11 @@ const enhancements = [
     category: 'Facial Enhancements',
     note: 'Add any of the following to enhance your facial treatment.',
     items: [
-      { name: 'Facial Waxing — Lip, Brow, or Chin', price: '$25 per area' },
-      { name: 'LED Red Light Treatment', price: '$25' },
-      { name: 'Lash or Brow Tint', price: '$50 each' },
-      { name: 'Dermaplane Add-On', price: '$30' },
-      { name: 'Additional Extractions', price: '$25' }
+      { name: 'Facial Waxing — Lip, Brow, or Chin' },
+      { name: 'LED Red Light Treatment' },
+      { name: 'Lash or Brow Tint' },
+      { name: 'Dermaplane Add-On' },
+      { name: 'Additional Extractions' }
     ]
   },
 ];
@@ -36,7 +36,6 @@ function Enhancements() {
                 {category.items.map((item, i) => (
                   <div key={i} className="enhancement-row">
                     <span className="enhancement-name">{item.name}</span>
-                    <span className="enhancement-price">{item.price}</span>
                   </div>
                 ))}
               </div>
