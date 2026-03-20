@@ -49,7 +49,7 @@ const treatments = [
     category: 'Advanced Treatments',
     items: [
       { name: 'Dr. Pen Micro Needling + Custom Skin Booster', description: '' },
-      { name: 'BioRePeel Glass Skin Peel', description: '' },
+      { name: 'PRX Derm Perfection', description: '' },
       { name: 'SkinMedica Vitalize Peel', description: '' }
     ]
   }

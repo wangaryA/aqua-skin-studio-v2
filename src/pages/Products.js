@@ -60,10 +60,9 @@ function Products() {
       <section className="products-intro">
         <div className="container">
           <p>
-            At Aqua Skin &amp; Body Studio, we exclusively carry and recommend
-            <strong> HydroPeptide</strong> — a professional-grade, peptide-powered skincare
-            line developed by geneticists and backed by epigenetic research. Every formula
-            is tested in treatment rooms worldwide to deliver real, visible results.
+            At Aqua Skin &amp; Body Studio, we carefully curate professional skincare brands
+            that meet our standards for efficacy, ingredient integrity, and results. Every
+            product we carry is one we trust and use in our treatment room.
           </p>
         </div>
       </section>
@@ -111,14 +110,33 @@ function Products() {
         </div>
       </section>
 
-      {/* Coming Soon */}
-      <section className="products-coming-soon">
+      {/* Doctor Rogers Brand */}
+      <section className="dr-rogers-section">
         <div className="container">
-          <h2>More Products Coming Soon</h2>
-          <p>
-            We are continuously expanding our retail selection. Check back soon for
-            additional HydroPeptide products and new brand additions to our studio.
-          </p>
+          <div className="dr-rogers-inner">
+            <div className="dr-rogers-text">
+              <h2>Doctor Rogers Skin Care</h2>
+              <p className="dr-rogers-tagline">Credible. CLEAN. <em>Uncompromising.</em></p>
+              <p>
+                Nationally-acclaimed, procedural dermatologist, trusted skincare expert,
+                and founder of Doctor Rogers Skin Care, Dr. Heather D. Rogers, MD is known
+                for her no-nonsense advice. After seeing countless patients struggle with
+                irritation and damage caused by overcomplicated, overhyped skincare, she
+                decided to create something better — clean, hypoallergenic essentials
+                powered by decades of clinical experience and proven bioactives that help
+                skin perform at its best.
+              </p>
+              <p>
+                With uncompromising standards for efficacy and ingredient integrity,
+                Doctor Rogers Skin Care helps people <em>age well</em>, with confidence
+                and ease.
+              </p>
+              <p className="affiliate-coming-soon">Shop link coming soon — affiliate store launching shortly.</p>
+            </div>
+            <div className="dr-rogers-image">
+              <img src="/images/doctor-rogers.png" alt="Dr. Heather Rogers with Doctor Rogers Skin Care products" />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -126,8 +144,8 @@ function Products() {
         <div className="container">
           <h2>Not Sure Where to Start?</h2>
           <p>
-            Book a consultation and we'll build a personalized HydroPeptide skincare
-            routine tailored specifically to your skin's needs.
+            Book a consultation and we'll build a personalized skincare routine
+            tailored specifically to your skin's needs.
           </p>
           <Link to="/appointments" className="btn btn-primary">Book a Consultation</Link>
         </div>
