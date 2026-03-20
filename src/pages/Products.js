@@ -78,7 +78,7 @@ function Products() {
                 HydroPeptide harnesses the science of epigenetics to visibly reduce
                 the signs of aging — delivering transformative results with every use.
               </p>
-              <p className="affiliate-coming-soon">Shop link coming soon — affiliate store launching shortly.</p>
+              <p className="affiliate-coming-soon">Shop link coming soon. Affiliate store launching shortly.</p>
             </div>
           </div>
         </div>
@@ -122,7 +122,7 @@ function Products() {
                 and founder of Doctor Rogers Skin Care, Dr. Heather D. Rogers, MD is known
                 for her no-nonsense advice. After seeing countless patients struggle with
                 irritation and damage caused by overcomplicated, overhyped skincare, she
-                decided to create something better — clean, hypoallergenic essentials
+                decided to create something better: clean, hypoallergenic essentials
                 powered by decades of clinical experience and proven bioactives that help
                 skin perform at its best.
               </p>
@@ -131,7 +131,7 @@ function Products() {
                 Doctor Rogers Skin Care helps people <em>age well</em>, with confidence
                 and ease.
               </p>
-              <p className="affiliate-coming-soon">Shop link coming soon — affiliate store launching shortly.</p>
+              <p className="affiliate-coming-soon">Shop link coming soon. Affiliate store launching shortly.</p>
             </div>
             <div className="dr-rogers-image">
               <img src="/images/doctor-rogers.jpg" alt="Dr. Heather Rogers with Doctor Rogers Skin Care products" />
