@@ -134,7 +134,7 @@ function Products() {
               <p className="affiliate-coming-soon">Shop link coming soon — affiliate store launching shortly.</p>
             </div>
             <div className="dr-rogers-image">
-              <img src="/images/doctor-rogers.png" alt="Dr. Heather Rogers with Doctor Rogers Skin Care products" />
+              <img src="/images/doctor-rogers.jpg" alt="Dr. Heather Rogers with Doctor Rogers Skin Care products" />
             </div>
           </div>
         </div>
