@@ -140,6 +140,66 @@ function Products() {
         </div>
       </section>
 
+      {/* Lenox and Sixteenth */}
+      <section className="brand-section brand-section-light">
+        <div className="container">
+          <div className="brand-section-inner reverse">
+            <div className="brand-section-image">
+              <img src="/images/lenox-sixteenth.jpg" alt="Amy Peterson, founder of Lenox and Sixteenth" />
+            </div>
+            <div className="brand-section-text">
+              <h2>Lenox and Sixteenth</h2>
+              <p className="brand-section-label">Founded by Amy Peterson, RN, LMA</p>
+              <p>
+                Founded by celebrity medical aesthetician Amy Peterson, Lenox and Sixteenth
+                is a luxury skincare brand that redefines at-home routines with
+                clinic-inspired essentials. Inspired by her own personal journey of
+                resilience, overcoming a life-threatening accident at 18 that left her with
+                40 scars, Amy combines her in-clinic expertise with a passion for
+                regenerative skin healing. This journey fueled her dedication to creating
+                inclusive, effective formulas that empower confidence and deliver radiant,
+                healthy skin.
+              </p>
+              <p>
+                Thoughtfully crafted for all skin types, Lenox and Sixteenth offers vegan,
+                cruelty-free products made with the highest quality, safety-tested
+                ingredients designed to transform your skincare regimen.
+              </p>
+              <p className="affiliate-coming-soon">Shop link coming soon. Affiliate store launching shortly.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Xtresse */}
+      <section className="brand-section brand-section-dark">
+        <div className="container">
+          <div className="brand-section-inner reverse">
+            <div className="brand-section-image">
+              <img src="/images/xtresse.jpg" alt="Xtresse hair gummy vitamins" />
+            </div>
+            <div className="brand-section-text">
+              <h2>Xtresse</h2>
+              <p className="brand-section-label">Hair Gummy Vitamins</p>
+              <p>
+                Founded by leading dermatologists and hair restoration experts, Xtresse
+                exists because the market was full of guesses, not solutions. We identified
+                the cellular mechanisms driving hair loss and built a system to address
+                them, with nothing extra, nothing unnecessary.
+              </p>
+              <p>
+                Now, for the first time, you can get a complete hair growth system from
+                at-home to in-office.
+              </p>
+              <p>
+                This is what happens when science meets real needs and delivers real results.
+              </p>
+              <p className="affiliate-coming-soon">Shop link coming soon. Affiliate store launching shortly.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="products-cta">
         <div className="container">
           <h2>Not Sure Where to Start?</h2>
