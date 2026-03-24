@@ -22,39 +22,51 @@ function Overview() {
             </div>
             <div className="overview-text">
               <h2>Welcome to Aqua</h2>
+
+              <h3 className="overview-subheading">Our Philosophy</h3>
               <p>
-                Aqua Skin & Body Studio is a boutique sanctuary dedicated to luxurious facials,
-                restorative body therapy, and personalized skin wellness. Designed for those who
-                value both results and relaxation, the studio blends advanced aesthetic expertise
-                with a serene, intimate environment where every detail is curated for comfort,
-                calm, and transformation.
+                After more than 22 years traveling the country as a medical aesthetics
+                representative, educating practices and witnessing the rise of breakthrough
+                skincare technologies, I've learned that the most transformative results come
+                from two things: clinical integrity and intentional innovation.
               </p>
               <p>
-                With more than 30 years of experience in medical aesthetics, dermatology
-                pharmaceuticals, and luxury skincare, I created Aqua Skin & Body Studio to offer
-                something rare in today's fast-paced beauty world — unhurried, high-touch care
-                rooted in science, expertise, and genuine connection. Each treatment is
-                thoughtfully customized, combining clinical-grade skincare with sensory
-                indulgence to support the skin, body, and nervous system as a whole.
+                At Aqua Skin &amp; Body Studio, my philosophy is simple yet deeply rooted in
+                experience: elevated skincare should fit beautifully into real life. That means
+                choosing treatments and products that deliver exceptional results with minimal
+                downtime, so you can return to your full, busy schedule feeling confident,
+                refreshed, and radiant.
               </p>
               <p>
-                At Aqua, luxury aesthetics means more than beautiful surroundings. It's the art
-                of delivering elevated, results-driven treatments with intention and warmth. From
-                the moment you arrive, you're welcomed into a calming space designed to help you
-                unwind, reset, and feel truly cared for. My goal is simple: to help you look and
-                feel your best — glowing, confident, and restored from the inside out.
+                I intentionally curate women-led and women-founded brands because, time and
+                again, I've seen women drive the most thoughtful advancements in our industry.
+                Their formulations are smarter, their technologies more intuitive, and their
+                approach more aligned with the real needs of real clients. Brands like
+                HydroPeptide, Doctor Rogers Skincare, PRX Derm Perfexion, Lennox and Sixteenth,
+                and Restorsea reflect the values I've championed throughout my career:
               </p>
 
-              <div className="credentials">
-                <h3>Specialties</h3>
-                <ul>
-                  <li>Luxury Facials & Advanced Skin Treatments</li>
-                  <li>Customized Massage Therapy</li>
-                  <li>Anti-Aging & Corrective Skincare</li>
-                  <li>Hydration, Barrier Repair & Glow-Boosting Protocols</li>
-                  <li>Personalized Homecare Guidance</li>
-                </ul>
-              </div>
+              <ul className="overview-values">
+                <li>Science-backed results</li>
+                <li>Safety and transparency</li>
+                <li>A deep understanding of the client journey</li>
+                <li>Innovation that respects your time and your skin</li>
+              </ul>
+
+              <p>
+                My philosophy blends clinical precision with luxury, restorative care. Every
+                treatment is designed to support skin health, enhance natural beauty, and create
+                meaningful change without disrupting your life. Whether you're stepping in
+                between meetings, after school drop-off, or before a weekend away, you'll
+                experience treatments that work as hard as you do: quietly, effectively, and
+                beautifully.
+              </p>
+              <p>
+                Aqua Skin &amp; Body Studio is where women-driven innovation, clinical expertise,
+                and intentional self-care come together. My goal is to help you feel at home in
+                your skin, supported by products and treatments created by women who understand
+                what it means to balance ambition, wellness, and beauty.
+              </p>
             </div>
           </div>
         </div>
