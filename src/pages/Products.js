@@ -145,7 +145,7 @@ function Products() {
         <div className="container">
           <div className="brand-section-inner reverse">
             <div className="brand-section-image">
-              <img src="/images/lenox-sixteenth.jpg" alt="Amy Peterson, founder of Lenox and Sixteenth" />
+              <img src="/images/lenox-sixteenth.png" alt="Amy Peterson, founder of Lenox and Sixteenth" />
             </div>
             <div className="brand-section-text">
               <h2>Lenox and Sixteenth</h2>
@@ -176,7 +176,7 @@ function Products() {
         <div className="container">
           <div className="brand-section-inner reverse">
             <div className="brand-section-image">
-              <img src="/images/xtresse.jpg" alt="Xtresse hair gummy vitamins" />
+              <img src="/images/xtresse.png" alt="Xtresse hair gummy vitamins" />
             </div>
             <div className="brand-section-text">
               <h2>Xtresse</h2>
