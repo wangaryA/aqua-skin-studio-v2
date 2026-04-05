@@ -8,7 +8,7 @@ function Footer() {
       <div className="container">
         <div className="footer-top">
           <h2 className="footer-logo">Aqua Skin &amp; Body Studio</h2>
-          <p className="footer-tagline"><em>Where science meets serenity.</em></p>
+          <p className="footer-tagline"><em>Luxury Precision Skincare</em></p>
         </div>
 
         <div className="footer-mid">

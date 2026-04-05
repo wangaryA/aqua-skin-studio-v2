@@ -30,15 +30,6 @@ const treatments = [
     ]
   },
   {
-    category: 'Diamond Glow by SkinMedica',
-    note: 'DiamondGlow® delivers revolutionary skin transformation through patented 3-in-1 technology that simultaneously exfoliates, extracts, and infuses professional-grade serums. This advanced facial treatment uses precision diamond-tip resurfacing to reveal instantly brighter, smoother, and more radiant skin with zero downtime.',
-    subnote: 'Face, neck, and chest treated with each session.',
-    items: [
-      { name: 'Diamond Glow Express', duration: '30 min', description: '' },
-      { name: 'Diamond Glow LUXE Facial', duration: '50 min', description: '' }
-    ]
-  },
-  {
     category: 'Lash Luxuries',
     items: [
       { name: 'Lash Lift and Tint', description: '' },
@@ -50,7 +41,9 @@ const treatments = [
     items: [
       { name: 'Dr. Pen Micro Needling + Custom Skin Booster', description: '' },
       { name: 'PRX Derm Perfection', description: '' },
-      { name: 'SkinMedica Vitalize Peel', description: '' }
+      { name: 'SkinMedica Vitalize Peel', description: '' },
+      { name: 'SkinMedica Illuminize Peel', description: '' },
+      { name: 'BioRePeel BLUE', description: '' }
     ]
   }
 ];
@@ -133,7 +126,7 @@ function TreatmentsPage() {
         <div className="container">
           <h2>Ready to Transform Your Skin?</h2>
           <p>Book your appointment and start your journey to healthier, more radiant skin.</p>
-          <Link to="/appointments" className="btn btn-primary">Book Now</Link>
+          <a href="https://www.vagaro.com/aquaskinandbodystudio" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Book Now</a>
         </div>
       </section>
     </div>

@@ -12,7 +12,7 @@ function Hero() {
         <p className="hero-location">Mukilteo, Washington</p>
         <h1 className="hero-brand">Aqua Skin &amp;<br />Body Studio</h1>
         <div className="hero-divider"></div>
-        <p className="hero-tagline">Where science meets serenity.</p>
+        <p className="hero-tagline">Luxury Precision Skincare</p>
         <Link to="/appointments" className="btn-minimal btn-minimal-dark">
           Reserve Your Experience
         </Link>

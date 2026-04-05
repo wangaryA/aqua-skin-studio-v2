@@ -7,7 +7,7 @@ function Overview() {
       <section className="overview-hero">
         <div className="container">
           <h1>About Aqua Skin & Body Studio</h1>
-          <p className="subtitle">Where Science Meets Serenity</p>
+          <p className="subtitle">Luxury Precision Skincare</p>
         </div>
       </section>
 
@@ -16,8 +16,8 @@ function Overview() {
           <div className="overview-grid">
             <div className="overview-image">
               <img
-                src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&h=800&fit=crop"
-                alt="Spa professional"
+                src="/images/spa-treatment-photo.jpg"
+                alt="Spa treatment at Aqua Skin &amp; Body Studio"
               />
             </div>
             <div className="overview-text">
@@ -84,8 +84,8 @@ function Overview() {
                 <img src="/images/tara-pennington.jpg" alt="Tara Pennington" className="staff-photo" />
               </div>
               <div className="staff-info">
-                <h3 className="staff-name">Tara Pennington, LMA, MA-C</h3>
-                <p className="staff-title">Manager &amp; Lead Provider</p>
+                <h3 className="staff-name">Tara Pennington</h3>
+                <p className="staff-title">Licensed Master Aesthetician, Certified Medical Assistant</p>
                 <p>
                   Tara is a Licensed Master Aesthetician and Certified Medical Assistant with
                   over 10 years of specialized experience in medical and cosmetic dermatology.
@@ -129,8 +129,8 @@ function Overview() {
                 <img src="/images/rachel-phillips.jpeg" alt="Rachel Phillips" className="staff-photo" />
               </div>
               <div className="staff-info">
-                <h3 className="staff-name">Rachel Phillips, LMA</h3>
-                <p className="staff-title">Master Aesthetician &amp; Founder</p>
+                <h3 className="staff-name">Rachel Phillips</h3>
+                <p className="staff-title">Licensed Master Aesthetician, Founder</p>
                 <p>
                   Rachel Phillips brings over 30 years of experience in prestige cosmetic
                   retail, medical aesthetics, spa and wellness. Her expertise spans skincare,
