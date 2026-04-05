@@ -6,7 +6,7 @@ function Hero() {
   return (
     <section
       className="hero-full"
-      style={{ backgroundImage: `url('/images/Hero-Final.webp')` }}
+      style={{ backgroundImage: `url('/images/spa-treatment-photo.jpg')` }}
     >
       <div className="hero-center">
         <p className="hero-location">Mukilteo, Washington</p>
