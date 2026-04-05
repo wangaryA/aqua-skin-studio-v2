@@ -6,7 +6,7 @@ function Hero() {
   return (
     <section
       className="hero-full"
-      style={{ backgroundImage: `url('/images/spa-treatment-photo.jpg')` }}
+      style={{ backgroundImage: `url('/images/Final-Final-Hero-Image.png')` }}
     >
       <div className="hero-center">
         <p className="hero-location">Mukilteo, Washington</p>

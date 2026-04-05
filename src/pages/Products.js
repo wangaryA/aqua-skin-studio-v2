@@ -28,7 +28,7 @@ function Products() {
           <div className="brand-section-inner">
             <div className="brand-section-text">
               <h2>HydroPeptide</h2>
-              <p className="brand-section-label">Luxury Anti-Aging Skincare</p>
+              <p className="brand-section-label">Women-Led C-Suite · Bellevue, WA</p>
               <p>
                 HydroPeptide is a luxury anti-aging skincare line powered by patented peptide
                 technology and the science of epigenetics. Their approach goes beyond surface-level
@@ -134,6 +134,44 @@ function Products() {
                 This is what happens when science meets real needs and delivers real results.
               </p>
               <p className="affiliate-coming-soon">Shop link coming soon. Affiliate store launching shortly.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Restorsea PRO */}
+      <section className="brand-section brand-section-light">
+        <div className="container">
+          <div className="brand-section-inner">
+            <div className="brand-section-text">
+              <h2>Restorsea PRO</h2>
+              <p className="brand-section-label">Founded by Patti Pao</p>
+              <p>
+                Harvard MBA. 40 years in beauty. The woman who brought glycolic acid to the world.
+              </p>
+              <p>
+                Before founding Restorsea, Patti Pao formulated over 400 beauty products for brands
+                like Avon, Guerlain, and Elizabeth Arden. At Avon in the late 1980s, she was part of
+                the team that commercialized glycolic acid, creating Avon Anew, the $1 billion brand
+                that introduced AHAs to the mainstream skincare market.
+              </p>
+              <p>
+                In 2010, while touring a Norwegian salmon hatchery, Patti discovered an enzyme that
+                baby salmon release at hatching. This enzyme only digests dead skin cells, leaving
+                living cells intact. The enzyme had been patented for 12 years, but no one could
+                formulate with it. Her lab solved the problem in one year, becoming the first to
+                create stable formulations with a living salmon hatching enzyme.
+              </p>
+              <p>
+                Today, Restorsea holds 35 patents through 2032. Patti runs the brand with the same
+                directness that made her "disruptive" in corporate America. She answers customer
+                questions personally, refuses to make claims she can't back with clinical studies,
+                and proves that science beats hype.
+              </p>
+              <p className="affiliate-coming-soon">Shop link coming soon. Affiliate store launching shortly.</p>
+            </div>
+            <div className="brand-section-image">
+              <img src="/images/patti.png" alt="Patti Pao, Founder of Restorsea PRO" />
             </div>
           </div>
         </div>
