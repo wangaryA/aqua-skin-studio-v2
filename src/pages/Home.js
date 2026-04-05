@@ -38,13 +38,13 @@ function Home() {
             </div>
           </Link>
 
-          <Link to="/treatments" className="service-tile">
+          <Link to="/products" className="service-tile">
             <div
               className="service-tile-img"
-              style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=900&h=1100&fit=crop&fm=webp&q=72)' }}
+              style={{ backgroundImage: 'url(/images/xtresse.png)' }}
             ></div>
             <div className="service-tile-label">
-              <p className="service-tile-title">Massage Therapy</p>
+              <p className="service-tile-title">Products</p>
               <span>Explore →</span>
             </div>
           </Link>
