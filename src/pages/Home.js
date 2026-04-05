@@ -52,7 +52,7 @@ function Home() {
           <Link to="/enhancements" className="service-tile">
             <div
               className="service-tile-img"
-              style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=900&h=1100&fit=crop&fm=webp&q=72)' }}
+              style={{ backgroundImage: 'url(/images/enhancements-treatment.jpg)' }}
             ></div>
             <div className="service-tile-label">
               <p className="service-tile-title">Enhancements</p>
