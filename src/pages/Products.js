@@ -140,7 +140,7 @@ function Products() {
                 questions personally, refuses to make claims she can't back with clinical studies,
                 and proves that science beats hype.
               </p>
-              <a href="https://www.restorseapro.com/restorsea-pro-products.html" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Shop Restorsea PRO</a>
+              <a href="https://www.restorseapro.com/physicianlocator/index/purchase/mds/ZFBIREwrTXZHemdKUVM5c1ZjYm5Rdz09" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Shop Restorsea PRO</a>
             </div>
             <div className="brand-section-image">
               <img src="/images/patti.png" alt="Patti Pao, Founder of Restorsea PRO" />
