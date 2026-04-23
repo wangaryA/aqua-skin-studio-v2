@@ -40,7 +40,7 @@ function Products() {
                 our treatment room and recommend them as part of personalized at-home regimens.
                 Every formula is thoughtfully crafted to be as effective as it is indulgent.
               </p>
-              <p className="affiliate-coming-soon">Shop link coming soon. Affiliate store launching shortly.</p>
+              <a href="https://hydropeptide.com/?rfsn=9047122.c85df8" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Shop HydroPeptide</a>
             </div>
             <div className="brand-section-image">
               <img src="/images/hydropeptide-award.jpg" alt="HydroPeptide Best Sheet Mask Company 2024 American Spa Awards" />
