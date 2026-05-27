@@ -25,20 +25,24 @@ const treatments = [
         name: 'The Back Treatment',
         duration: '50 min',
         description: 'Our customized back facial targets those hard-to-reach areas to clear clogged pores, reduce pigmentation, and treat acne. Includes deep cleansing, light chemical peel, extractions, and a customized mask with LED therapy. After your session, you\'ll notice visibly healthier, glowing skin — hydrated with a smoother, more even skin tone.'
+      },
+      {
+        name: 'Custom Derma Plane Facial',
+        description: 'The Custom Derma Plane Facial is a transformative treatment designed to gently exfoliate the skin, effectively removing dead cells and unwanted facial hair to reveal a smoother and more radiant complexion. This comprehensive service encompasses a thorough cleansing, the application of steam, extractions to address impurities, a light chemical peel if needed, dermaplaning for enhanced texture, and the application of a soothing mask to nourish and invigorate the skin. Experience the rejuvenating benefits of this facial as it enhances your skin\'s overall tone and leaves you with a fresh, luminous glow.'
       }
     ]
   },
   {
     category: 'Lash Luxuries',
     items: [
-      { name: 'Lash Lift and Tint', description: '' },
-      { name: 'Brow Lamination with Wax and Tint', description: '' }
+      { name: 'Elleebana Lash Lift', description: '' },
+      { name: 'Lash & Brow Tint', description: '' }
     ]
   },
   {
     category: 'Advanced Treatments',
     items: [
-      { name: 'Dr. Pen Micro Needling + Custom Skin Booster', description: '' },
+      { name: 'Dr. Pen Micro Needling + Custom Skin Boosters from Milan, Italy', description: '' },
       { name: 'PRX Derm Perfection', description: '' },
       { name: 'SkinMedica Vitalize Peel', description: '' },
       { name: 'SkinMedica Illuminize Peel', description: '' },

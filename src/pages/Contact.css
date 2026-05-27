@@ -263,3 +263,15 @@
   .map-section     { padding: 32px 0 48px; }
   .map-container iframe { height: 240px; }
 }
+
+
+.form-error {
+  color: #c0392b;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

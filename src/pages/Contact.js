@@ -10,6 +10,8 @@ function Contact() {
     message: ''
   });
   const [submitted, setSubmitted] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState(null);
 
   const handleChange = (e) => {
     setFormData({
@@ -18,11 +20,35 @@ function Contact() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // In production, this would send to a backend
-    console.log('Form submitted:', formData);
-    setSubmitted(true);
+    setSending(true);
+    setError(null);
+
+    try {
+      const res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          access_key: process.env.REACT_APP_WEB3FORMS_KEY,
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone || 'Not provided',
+          subject: `Contact Form: ${formData.subject}`,
+          message: formData.message,
+        }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setSubmitted(true);
+      } else {
+        setError('Something went wrong. Please try again or email us directly.');
+      }
+    } catch {
+      setError('Something went wrong. Please try again or email us directly.');
+    } finally {
+      setSending(false);
+    }
   };
 
   return (
@@ -169,7 +195,10 @@ function Contact() {
                     ></textarea>
                   </div>
 
-                  <button type="submit" className="btn btn-primary">Send Message</button>
+                  {error && <p className="form-error">{error}</p>}
+                  <button type="submit" className="btn btn-primary" disabled={sending}>
+                    {sending ? 'Sending...' : 'Send Message'}
+                  </button>
                 </form>
               )}
             </div>
