@@ -30,6 +30,26 @@
 }
 
 /* Contact Info */
+.contact-info-centered {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.email-cta {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.contact-text a {
+  color: var(--primary-aqua);
+  text-decoration: none;
+}
+
+.contact-text a:hover {
+  text-decoration: underline;
+}
+
 .contact-info h2 {
   color: var(--charcoal);
   margin-bottom: 16px;

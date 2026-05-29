@@ -1,56 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Contact.css';
 
 function Contact() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    subject: '',
-    message: ''
-  });
-  const [submitted, setSubmitted] = useState(false);
-  const [sending, setSending] = useState(false);
-  const [error, setError] = useState(null);
-
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setSending(true);
-    setError(null);
-
-    try {
-      const res = await fetch('https://api.web3forms.com/submit', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          access_key: process.env.REACT_APP_WEB3FORMS_KEY,
-          name: formData.name,
-          email: formData.email,
-          phone: formData.phone || 'Not provided',
-          subject: `Contact Form: ${formData.subject}`,
-          message: formData.message,
-        }),
-      });
-      const data = await res.json();
-      if (data.success) {
-        setSubmitted(true);
-      } else {
-        setError('Something went wrong. Please try again or email us directly.');
-      }
-    } catch {
-      setError('Something went wrong. Please try again or email us directly.');
-    } finally {
-      setSending(false);
-    }
-  };
-
   return (
     <div className="page-wrapper">
       <section className="contact-hero">
@@ -62,145 +13,65 @@ function Contact() {
 
       <section className="contact-content">
         <div className="container">
-          <div className="contact-grid">
-            <div className="contact-info">
-              <h2>Get in Touch</h2>
-              <p className="contact-intro">
-                Have questions about our services or want to learn more about how we can
-                help you achieve your skincare goals? Reach out to us!
-              </p>
+          <div className="contact-info contact-info-centered">
+            <h2>Get in Touch</h2>
+            <p className="contact-intro">
+              Have questions about our services or want to learn more about how we can
+              help you achieve your skincare goals? Reach out to us!
+            </p>
 
-              <div className="contact-details">
-                <div className="contact-item">
-                  <div className="contact-icon">📍</div>
-                  <div className="contact-text">
-                    <h3>Location</h3>
-                    <p>728 3rd St, Suite C<br />Mukilteo, WA 98275</p>
-                  </div>
-                </div>
-
-                <div className="contact-item">
-                  <div className="contact-icon">📞</div>
-                  <div className="contact-text">
-                    <h3>Call Us</h3>
-                    <p>(425) 371-6777</p>
-                  </div>
-                </div>
-
-                <div className="contact-item">
-                  <div className="contact-icon">✉️</div>
-                  <div className="contact-text">
-                    <h3>Email Us</h3>
-                    <p>HELLO@aquaskinandbodystudio.com</p>
-                  </div>
-                </div>
-
-                <div className="contact-item">
-                  <div className="contact-icon">🕐</div>
-                  <div className="contact-text">
-                    <h3>Hours</h3>
-                    <p>By Appointment Only</p>
-                  </div>
+            <div className="contact-details">
+              <div className="contact-item">
+                <div className="contact-icon">📍</div>
+                <div className="contact-text">
+                  <h3>Location</h3>
+                  <p>728 3rd St, Suite C<br />Mukilteo, WA 98275</p>
                 </div>
               </div>
 
-              <div className="social-links">
-                <h3>Follow Us</h3>
-                <div className="social-icons">
-                  <a href="https://www.instagram.com/aquaskinandbody" target="_blank" rel="noopener noreferrer" className="social-icon">
-                    Instagram
-                  </a>
-                  <a href="https://www.facebook.com/profile.php?id=61550784741105" target="_blank" rel="noopener noreferrer" className="social-icon">
-                    Facebook
-                  </a>
+              <div className="contact-item">
+                <div className="contact-icon">📞</div>
+                <div className="contact-text">
+                  <h3>Call Us</h3>
+                  <p><a href="tel:+14253716777">(425) 371-6777</a></p>
+                </div>
+              </div>
+
+              <div className="contact-item">
+                <div className="contact-icon">✉️</div>
+                <div className="contact-text">
+                  <h3>Email Us</h3>
+                  <p>
+                    <a href="mailto:HELLO@aquaskinandbodystudio.com">
+                      HELLO@aquaskinandbodystudio.com
+                    </a>
+                  </p>
+                </div>
+              </div>
+
+              <div className="contact-item">
+                <div className="contact-icon">🕐</div>
+                <div className="contact-text">
+                  <h3>Hours</h3>
+                  <p>By Appointment Only</p>
                 </div>
               </div>
             </div>
 
-            <div className="contact-form-section">
-              {submitted ? (
-                <div className="form-success">
-                  <div className="success-icon">✓</div>
-                  <h2>Thank You!</h2>
-                  <p>Your message has been sent successfully. We'll get back to you within 24-48 hours.</p>
-                </div>
-              ) : (
-                <form className="contact-form" onSubmit={handleSubmit}>
-                  <h2>Send Us a Message</h2>
+            <a href="mailto:HELLO@aquaskinandbodystudio.com" className="btn btn-primary email-cta">
+              Send Us an Email
+            </a>
 
-                  <div className="form-group">
-                    <label htmlFor="name">Name *</label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      value={formData.name}
-                      onChange={handleChange}
-                      required
-                    />
-                  </div>
-
-                  <div className="form-row">
-                    <div className="form-group">
-                      <label htmlFor="email">Email *</label>
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        value={formData.email}
-                        onChange={handleChange}
-                        required
-                      />
-                    </div>
-                    <div className="form-group">
-                      <label htmlFor="phone">Phone</label>
-                      <input
-                        type="tel"
-                        id="phone"
-                        name="phone"
-                        value={formData.phone}
-                        onChange={handleChange}
-                      />
-                    </div>
-                  </div>
-
-                  <div className="form-group">
-                    <label htmlFor="subject">Subject *</label>
-                    <select
-                      id="subject"
-                      name="subject"
-                      value={formData.subject}
-                      onChange={handleChange}
-                      required
-                    >
-                      <option value="">Select a subject</option>
-                      <option value="general">General Inquiry</option>
-                      <option value="appointment">Appointment Question</option>
-                      <option value="treatment">Treatment Information</option>
-                      <option value="products">Product Inquiry</option>
-                      <option value="feedback">Feedback</option>
-                      <option value="other">Other</option>
-                    </select>
-                  </div>
-
-                  <div className="form-group">
-                    <label htmlFor="message">Message *</label>
-                    <textarea
-                      id="message"
-                      name="message"
-                      rows="5"
-                      value={formData.message}
-                      onChange={handleChange}
-                      required
-                    ></textarea>
-                  </div>
-
-                  {error && <p className="form-error">{error}</p>}
-                  <button type="submit" className="btn btn-primary" disabled={sending}>
-                    {sending ? 'Sending...' : 'Send Message'}
-                  </button>
-                </form>
-              )}
+            <div className="social-links">
+              <h3>Follow Us</h3>
+              <div className="social-icons">
+                <a href="https://www.instagram.com/aquaskinandbody" target="_blank" rel="noopener noreferrer" className="social-icon">
+                  Instagram
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61550784741105" target="_blank" rel="noopener noreferrer" className="social-icon">
+                  Facebook
+                </a>
+              </div>
             </div>
           </div>
         </div>
