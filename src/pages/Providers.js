@@ -27,7 +27,7 @@ function Providers() {
           {/* Eve Stern */}
           <div className="provider-card">
             <div className="provider-photo">
-              <img src="/images/Eve-Stern-Bellevue-Medical-Esthetics_400px.webp" alt="Eve Stern, RN, MS, LMA" />
+              <img src="/images/eve-stern.png" alt="Eve Stern, RN, MS, LMA" />
             </div>
             <div className="provider-info">
               <div className="provider-tag">Now Booking — First Day July 7th</div>
