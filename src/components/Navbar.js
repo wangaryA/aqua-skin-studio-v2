@@ -46,6 +46,7 @@ function Navbar() {
           <li><Link to="/overview">About</Link></li>
           <li><Link to="/treatments">Treatments</Link></li>
           <li><Link to="/enhancements">Enhancements</Link></li>
+          <li><Link to="/providers">Medical Partners</Link></li>
           <li><Link to="/products">Products</Link></li>
           <li><Link to="/contact">Contact</Link></li>
           <li className="nav-book"><Link to="/appointments">Book</Link></li>
@@ -67,6 +68,7 @@ function Navbar() {
           <li><Link to="/overview">About</Link></li>
           <li><Link to="/treatments">Treatments</Link></li>
           <li><Link to="/enhancements">Enhancements</Link></li>
+          <li><Link to="/providers">Medical Partners</Link></li>
           <li><Link to="/products">Products</Link></li>
           <li><Link to="/contact">Contact</Link></li>
           <li className="nav-book"><Link to="/appointments">Book</Link></li>

@@ -14,6 +14,7 @@ const Enhancements    = lazy(() => import('./pages/Enhancements'));
 const Appointments    = lazy(() => import('./pages/Appointments'));
 const Contact         = lazy(() => import('./pages/Contact'));
 const GiftCertificate = lazy(() => import('./pages/GiftCertificate'));
+const Providers       = lazy(() => import('./pages/Providers'));
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             <Route path="/appointments" element={<Appointments />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/gift-certificate" element={<GiftCertificate />} />
+            <Route path="/providers" element={<Providers />} />
           </Routes>
         </Suspense>
         </main>
