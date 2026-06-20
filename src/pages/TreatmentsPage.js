@@ -46,7 +46,21 @@ const treatments = [
       { name: 'PRX Derm Perfection', description: '' },
       { name: 'SkinMedica Vitalize Peel', description: '' },
       { name: 'SkinMedica Illuminize Peel', description: '' },
-      { name: 'BioRePeel BLUE', description: '' }
+      { name: 'BioRePeel BLUE', description: '' },
+      {
+        subcategory: 'Wrinkle Relaxing Toxin',
+        name: 'DAXXIFY',
+        image: '/images/daxxify 2.jpg',
+        link: 'https://www.daxxify.com',
+        linkLabel: 'Learn More at daxxify.com'
+      },
+      {
+        subcategory: 'Natural Hyaluronic Acid Fillers',
+        name: 'The RHA Collection by Teoxane',
+        image: '/images/RHA Filler 1.jpg',
+        link: 'https://www.RHAcollection.com',
+        linkLabel: 'Learn More at RHAcollection.com'
+      }
     ]
   }
 ];
@@ -86,6 +100,35 @@ function TreatmentsPage() {
                   const key = `${index}-${i}`;
                   const isOpen = !!openItems[key];
                   const hasDesc = !!treatment.description;
+
+                  if (treatment.image) {
+                    return (
+                      <div key={i} className="treatment-product-item">
+                        {treatment.subcategory && (
+                          <p className="treatment-subcategory">{treatment.subcategory}</p>
+                        )}
+                        <div className="treatment-product-card">
+                          <img
+                            src={treatment.image}
+                            alt={treatment.name}
+                            className="treatment-product-img"
+                          />
+                          <div className="treatment-product-info">
+                            <h3>{treatment.name}</h3>
+                            <a
+                              href={treatment.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="treatment-product-link btn btn-primary"
+                            >
+                              {treatment.linkLabel}
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  }
+
                   return (
                     <div
                       key={i}

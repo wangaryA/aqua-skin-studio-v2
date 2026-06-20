@@ -6,7 +6,7 @@ function Providers() {
     <div className="page-wrapper">
       <section className="providers-hero">
         <div className="container">
-          <h1>Medical Partners</h1>
+          <h1>Medical Aesthetics &amp; Longevity</h1>
           <p className="subtitle">Expert Care, Right Here at Aqua</p>
         </div>
       </section>
@@ -14,7 +14,9 @@ function Providers() {
       <section className="providers-intro-section">
         <div className="container">
           <p className="providers-intro">
-            AQUA Skin &amp; Body Studio is excited to partner with two amazing Aesthetic Medical Providers!
+            AQUA Skin &amp; Body Studio is proud to partner with a comprehensive medical team
+            offering Plastic Surgery, Longevity Medicine, and advanced Aesthetic
+            Injectables — including Daxxify and RHA® Fillers — right here at AQUA.
           </p>
         </div>
       </section>
@@ -25,12 +27,15 @@ function Providers() {
           {/* Eve Stern */}
           <div className="provider-card">
             <div className="provider-photo">
-              <img src="/images/eve-stern.jpg" alt="Eve Stern, RN, MS, LME" />
+              <img src="/images/Eve-Stern-Bellevue-Medical-Esthetics_400px.webp" alt="Eve Stern, RN, BSN" />
             </div>
             <div className="provider-info">
               <div className="provider-tag">Now Booking — First Day July 7th</div>
-              <h2>Eve Stern, RN, MS, LME</h2>
-              <p className="provider-title">Aesthetic Nurse Injector &amp; Master Aesthetician</p>
+              <h2>Eve Stern, RN, BSN</h2>
+              <p className="provider-title">Aesthetic Injectables</p>
+              <p className="provider-location">
+                Located at AQUA Skin &amp; Body Studio by appointment
+              </p>
               <p className="provider-bio">
                 With more than 35 years of healthcare experience, Eve serves at AQUA Skin &amp; Body
                 Studio as an Aesthetic Nurse Injector, Master Aesthetician. She holds a Master's
@@ -47,6 +52,14 @@ function Providers() {
                 >
                   Book with Us
                 </a>
+                <a
+                  href="https://www.enhanceskinandbrow.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="provider-gallery-link"
+                >
+                  enhanceskinandbrow.com →
+                </a>
               </div>
             </div>
           </div>
@@ -54,11 +67,12 @@ function Providers() {
           {/* Richard Baxter */}
           <div className="provider-card reverse">
             <div className="provider-photo">
-              <img src="/images/richard-baxter.jpg" alt="Richard Baxter, MD" />
+              <img src="/images/Richard Baxter MD.jpeg" alt="Richard Baxter, MD" />
             </div>
             <div className="provider-info">
               <h2>Richard Baxter, MD</h2>
               <p className="provider-title">Phase Plastic Surgery and Longevity</p>
+              <p className="provider-location">Mountlake Terrace, WA</p>
               <p className="provider-bio">
                 Richard A. Baxter, M.D. of Phase Plastic Surgery &amp; Longevity has been one of
                 the leading plastic surgeons in the Northwest for more than three decades. Having
@@ -77,7 +91,7 @@ function Providers() {
               </p>
               <div className="provider-actions">
                 <a
-                  href="http://www.phaseplasticsurgery.com"
+                  href="https://www.phaseplasticsurgery.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary"
