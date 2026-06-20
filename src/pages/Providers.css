@@ -125,6 +125,23 @@
   font-size: 0.98rem;
 }
 
+.provider-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.provider-contact-link {
+  color: var(--primary-aqua);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.provider-contact-link:hover {
+  text-decoration: underline;
+}
+
 .provider-actions {
   display: flex;
   align-items: center;

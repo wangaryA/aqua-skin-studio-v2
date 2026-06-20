@@ -14,9 +14,9 @@ function Providers() {
       <section className="providers-intro-section">
         <div className="container">
           <p className="providers-intro">
-            AQUA Skin &amp; Body Studio is proud to partner with a comprehensive medical team
-            offering Plastic Surgery, Longevity Medicine, and advanced Aesthetic
-            Injectables — including Daxxify and RHA® Fillers — right here at AQUA.
+            AQUA Skin &amp; Body Studio is excited to partner with amazing Aesthetic Medical
+            Providers, bringing together advanced medical expertise and luxury skincare
+            under one roof.
           </p>
         </div>
       </section>
@@ -27,12 +27,12 @@ function Providers() {
           {/* Eve Stern */}
           <div className="provider-card">
             <div className="provider-photo">
-              <img src="/images/Eve-Stern-Bellevue-Medical-Esthetics_400px.webp" alt="Eve Stern, RN, BSN" />
+              <img src="/images/Eve-Stern-Bellevue-Medical-Esthetics_400px.webp" alt="Eve Stern, RN, MS, LME" />
             </div>
             <div className="provider-info">
               <div className="provider-tag">Now Booking — First Day July 7th</div>
-              <h2>Eve Stern, RN, BSN</h2>
-              <p className="provider-title">Aesthetic Injectables</p>
+              <h2>Eve Stern, RN, MS, LME</h2>
+              <p className="provider-title">Aesthetic Nurse Injector &amp; Master Aesthetician</p>
               <p className="provider-location">
                 Located at AQUA Skin &amp; Body Studio by appointment
               </p>
@@ -91,12 +91,40 @@ function Providers() {
               </p>
               <div className="provider-actions">
                 <a
-                  href="https://www.phaseplasticsurgery.com"
+                  href="https://www.drbaxter.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary"
                 >
                   Visit Phase Plastic Surgery
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Rachel Phillips */}
+          <div className="provider-card">
+            <div className="provider-photo">
+              <img src="/images/rachel-phillips.jpeg" alt="Rachel Phillips, LMA" />
+            </div>
+            <div className="provider-info">
+              <h2>Rachel Phillips, LMA</h2>
+              <p className="provider-title">Medical Dermatology &amp; Aesthetics</p>
+              <p className="provider-location">
+                Located at AQUA Skin &amp; Body Studio by appointment
+              </p>
+              <div className="provider-contact">
+                <a href="mailto:rachelmichaels4@yahoo.com" className="provider-contact-link">rachelmichaels4@yahoo.com</a>
+                <a href="tel:+14258774987" className="provider-contact-link">(425) 877-4987</a>
+              </div>
+              <div className="provider-actions">
+                <a
+                  href="https://www.vagaro.com/aquaskinandbodystudio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary"
+                >
+                  Book with Us
                 </a>
               </div>
             </div>
