@@ -102,33 +102,6 @@ function Providers() {
             </div>
           </div>
 
-          {/* Rachel Phillips */}
-          <div className="provider-card">
-            <div className="provider-photo">
-              <img src="/images/rachel-phillips.jpeg" alt="Rachel Phillips, LMA" />
-            </div>
-            <div className="provider-info">
-              <h2>Rachel Phillips, LMA</h2>
-              <p className="provider-title">Medical Dermatology &amp; Aesthetics</p>
-              <p className="provider-location">
-                Located at AQUA Skin &amp; Body Studio by appointment
-              </p>
-              <div className="provider-contact">
-                <a href="mailto:rachelmichaels4@yahoo.com" className="provider-contact-link">rachelmichaels4@yahoo.com</a>
-                <a href="tel:+14258774987" className="provider-contact-link">(425) 877-4987</a>
-              </div>
-              <div className="provider-actions">
-                <a
-                  href="https://www.vagaro.com/aquaskinandbodystudio"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-primary"
-                >
-                  Book with Us
-                </a>
-              </div>
-            </div>
-          </div>
 
         </div>
       </section>
