@@ -27,11 +27,11 @@ function Providers() {
           {/* Eve Stern */}
           <div className="provider-card">
             <div className="provider-photo">
-              <img src="/images/Eve-Stern-Bellevue-Medical-Esthetics_400px.webp" alt="Eve Stern, RN, MS, LME" />
+              <img src="/images/Eve-Stern-Bellevue-Medical-Esthetics_400px.webp" alt="Eve Stern, RN, MS, LMA" />
             </div>
             <div className="provider-info">
               <div className="provider-tag">Now Booking — First Day July 7th</div>
-              <h2>Eve Stern, RN, MS, LME</h2>
+              <h2>Eve Stern, RN, MS, LMA</h2>
               <p className="provider-title">Aesthetic Nurse Injector &amp; Master Aesthetician</p>
               <p className="provider-location">
                 Located at AQUA Skin &amp; Body Studio by appointment
