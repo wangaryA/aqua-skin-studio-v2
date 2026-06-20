@@ -25,21 +25,18 @@ function Providers() {
           {/* Eve Stern */}
           <div className="provider-card">
             <div className="provider-photo">
-              <img src="/images/eve-stern.jpg" alt="Eve Stern, RN, MS, LMA" />
+              <img src="/images/eve-stern.jpg" alt="Eve Stern, RN, MS, LME" />
             </div>
             <div className="provider-info">
               <div className="provider-tag">Now Booking — First Day July 7th</div>
-              <h2>Eve Stern, RN, MS, LMA</h2>
+              <h2>Eve Stern, RN, MS, LME</h2>
               <p className="provider-title">Aesthetic Nurse Injector &amp; Master Aesthetician</p>
-              <p className="provider-specialties">
-                Specializing in Botox, Daxxify, RHA Fillers
-              </p>
               <p className="provider-bio">
                 With more than 35 years of healthcare experience, Eve serves at AQUA Skin &amp; Body
-                Studio as an Aesthetic Nurse Injector and Master Aesthetician. She holds a Master's
+                Studio as an Aesthetic Nurse Injector, Master Aesthetician. She holds a Master's
                 Degree in Health Science Administration and a Nursing Degree from Columbia University
                 in New York City. This rare combination of medical training and advanced aesthetic
-                expertise allows her to deliver exceptional, northwest natural results.
+                expertise allows her to deliver exceptional, clinically informed client care.
               </p>
               <div className="provider-actions">
                 <a
@@ -48,15 +45,7 @@ function Providers() {
                   rel="noopener noreferrer"
                   className="btn btn-primary"
                 >
-                  Book a Free Consultation
-                </a>
-                <a
-                  href="https://enhanceskinandbrow.com/fillers/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="provider-gallery-link"
-                >
-                  View Before &amp; After Gallery →
+                  Book with Us
                 </a>
               </div>
             </div>
@@ -69,8 +58,7 @@ function Providers() {
             </div>
             <div className="provider-info">
               <h2>Richard Baxter, MD</h2>
-              <p className="provider-title">Plastic Surgeon &amp; Longevity Medicine</p>
-              <p className="provider-specialties">Phase Plastic Surgery &amp; Longevity</p>
+              <p className="provider-title">Phase Plastic Surgery and Longevity</p>
               <p className="provider-bio">
                 Richard A. Baxter, M.D. of Phase Plastic Surgery &amp; Longevity has been one of
                 the leading plastic surgeons in the Northwest for more than three decades. Having
@@ -84,11 +72,12 @@ function Providers() {
                 Longevity moves beyond traditional anti-aging to offer clinically validated therapies
                 and interventions. These include Therapeutic Plasma Exchange (TPE), sophisticated
                 biological age measurement, exosomes, and evidence-based prescriptions for healthy
-                longevity.
+                longevity. Learn more about these fascinating medical advancements by visiting his
+                website below.
               </p>
               <div className="provider-actions">
                 <a
-                  href="http://phaseplasticsurgery.com"
+                  href="http://www.phaseplasticsurgery.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary"
