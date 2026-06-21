@@ -14,9 +14,8 @@ function Providers() {
       <section className="providers-intro-section">
         <div className="container">
           <p className="providers-intro">
-            AQUA Skin &amp; Body Studio is excited to partner with amazing Aesthetic Medical
-            Providers, bringing together advanced medical expertise and luxury skincare
-            under one roof.
+            AQUA Skin &amp; Body Studio is excited to partner with exceptional Aesthetic Medical
+            Providers, uniting advanced medical expertise with luxury skincare right here in Mukilteo.
           </p>
         </div>
       </section>
