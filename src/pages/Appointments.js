@@ -49,10 +49,10 @@ function Appointments() {
 
             <div className="booking-section">
               <div className="booking-card">
-                <h2>Schedule Online</h2>
+                <h2>View Pricing &amp; Schedule Online</h2>
                 <p>
-                  Book your appointment easily through our online scheduling system.
-                  Select your preferred service, date, and time.
+                  Click our Vagaro page to explore current pricing, monthly specials,
+                  and exclusive membership options.
                 </p>
                 <a
                   href="https://www.vagaro.com/aquaskinandbodystudio"
